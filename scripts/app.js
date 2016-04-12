@@ -13,10 +13,10 @@ Project.prototype.toHtml = function(){
   var $newProject = $('article.template').clone();
   $newProject.attr('class', this.class);
   $newProject.attr('id', this.id);
-  $newProject.find('h1').html(this.title);
-  $newProject.find('p').html(this.when);
-  $newProject.find('p').html(this.about);
-  $newProject.find('a').attr('href', this.infoUrl);
+  $newProject.find('.title').html(this.title);
+  $newProject.find('.date').html(this.when);
+  $newProject.find('.body').html(this.about);
+  $newProject.append('<a href="">Check it out!</a>').attr('href', this.infoUrl);
 
   $newProject.removeClass('template');
   return $newProject;
