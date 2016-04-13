@@ -29,3 +29,19 @@ projectData.forEach(function(ele) {
 projects.forEach(function(a){
   $('#projects').append(a.toHtml());
 });
+
+var contentDisplayed = {};
+
+contentDisplayed.handleNavBar = function(){
+  $('.nav-bar').on('click', '.page', function(){
+    $('.page-content').hide();
+    $('#' + $(this).data('content')).show();
+    console.log('#' + $(this).data('content'));
+  });
+
+  $('.nav-bar .page:first').click();
+};
+
+$(document).ready(function(){
+  contentDisplayed.handleNavBar();
+});

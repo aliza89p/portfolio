@@ -7,23 +7,32 @@
   </head>
   <body>
     <main>
-      <header>
+      <header class="portfolio-header">
         <h1>Aliza Pilisuk: Portfolio</h1>
       </header>
-      <nav>
+      <nav class="nav-bar">
         <ul>
-          <li>Projects</li>
-          <li>About</li>
+          <li class="page" data-content="projects"><a href="#">Projects</a></li>
+          <li class="page" data-content="about"><a href="#">About</li>
           <li><a href="https://github.com/aliza89p">Github</a></li>
           <li><a href="https://www.linkedin.com/in/alizapilisuk">LinkedIn</a></li>
         </ul>
       </nav>
-      <section id="projects">
+      <section id="projects" class="page-content">
         <article class="template">
           <h1 class="title"></h1>
           <p class="date"></p>
           <p class="body"></p>
         </article>
+      </section>
+      <section id="about" class="page-content">
+        <header>
+          <h1>Welcome to my Portfolio</h1>
+        </header>
+        <section>
+          <h1>About Me:</h1>
+          <p>I am a web developer passioniate about social justice. I love solving problems and collaborating with others to create innovative projects. The web is a powerful tool - let's use it to change the world!</p>
+        </section>
       </section>
     </main>
     <footer>
