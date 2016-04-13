@@ -12,6 +12,7 @@ section, .portfolio-header{
   border: 1px dashed #211426;
   border-radius: 10px;
 }
+
 main {
   display: block;
   position: relative;
@@ -56,7 +57,14 @@ nav a{
   text-decoration: none;
   padding: 10px;
 }
-
+.check-it-out{
+  background-color: #8DAD9B;
+  color: #38453E;
+  border: 1px solid #38453E;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+}
 h1, p{
     color: #413659;
 }
