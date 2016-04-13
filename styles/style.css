@@ -1,0 +1,24 @@
+main {
+  display: block;
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+}
+
+header h1{
+  text-align: center;
+}
+
+nav {
+  display: block;
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+nav li{
+  display: inline;
+}
+
+footer {
+  text-align: center;
+}
