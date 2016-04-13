@@ -29,6 +29,7 @@ main {
   background-color: #413659;
   color: white;
   padding: 10px;
+  padding-bottom: 10px;
 }
 
 .nav-bar ul{
@@ -38,10 +39,12 @@ main {
 }
 .nav-bar:hover ul{
   display: block;
+  margin-left: 40px;
+  margin-top: -25px;
+  margin-bottom: 0px;
 }
 .nav-bar li{
   display: list-item;;
-  margin-top: 0 auto;
   padding-top: 10px;
   font-family: 'Poiret One', cursive;
   list-style-type: none;
