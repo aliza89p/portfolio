@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Cabin+Sketch|Forum|Roboto);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Forum|Roboto);
 
 body{
   background-color: #9BBFAB;
@@ -50,17 +50,19 @@ nav li{
   display: inline-block;
   margin: 0 auto;
   padding: 3px 10px;
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Poiret One', cursive;
 }
 nav a{
   color: white;
   text-decoration: none;
+  font-size: 18px;
   padding: 10px;
 }
+
 .check-it-out{
-  background-color: #8DAD9B;
-  color: #38453E;
-  border: 1px solid #38453E;
+  background-color: #B8CAFF;
+  color: #413659;
+  border: 1px solid #413659;
   border-radius: 5px;
   padding: 5px;
   text-decoration: none;
