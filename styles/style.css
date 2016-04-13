@@ -1,24 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Forum|Roboto);
+
+body{
+    background-color: #F2EFDF;
+}
+section{
+  background-color: white;
+  padding: 5px 15px 25px 15px;
+  font-family: 'Roboto', sans-serif;
+  border: 1px dashed #211426;
+  border-radius: 10px;
+}
+
 main {
   display: block;
   position: relative;
-  width: 800px;
+  width: 90%;
   margin: 0 auto;
+  padding: 20px;
 }
 
-header h1{
+.portfolio-header{
+  background-color: #656F8C;
+  color: white;
+  width: 100%;
+}
+
+.portfolio-header h1{
   text-align: center;
+  color: white;
+  font-size: 55px;
+  font-family: 'Forum', cursive;
+  padding: 5px 0;
+  margin: 0 auto;
 }
 
 nav {
   display: block;
   position: relative;
-  width: 300px;
-  margin: 0 auto;
+  margin: 10px auto;
+  background-color: #413659;
+
+}
+nav ul{
+  text-align: center;
 }
 nav li{
-  display: inline;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 3px 10px;
+  font-family: 'Poiret One', cursive;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.check-it-out{
+  background-color: #B8CAFF;
+  color: #413659;
+  border: 1px solid #413659;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+}
+article a{
+  color: #2B8682;
+}
+h1, p{
+    color: #413659;
 }
 
 footer {
   text-align: center;
+  background-color: #413659;
+  margin: 0 auto;
+  width: 90%;
+  color: white;
+  padding: 2px 0;
+  font-size: 11px;
+  font-family: 'Forum', cursive;
 }
