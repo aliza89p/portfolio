@@ -16,7 +16,7 @@ Project.prototype.toHtml = function(){
   $newProject.find('.title').html(this.title);
   $newProject.find('.date').html(this.when);
   $newProject.find('.body').html(this.about);
-  $newProject.append('<a href="' + this.infoUrl + '" class="check-it-out">Check it out!</a>');
+  $newProject.append('<a href="' + this.infoUrl + '" class="check-it-out" target="_blank">Check it out!</a>');
 
   $newProject.removeClass('template');
   return $newProject;
