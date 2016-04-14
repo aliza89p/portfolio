@@ -24,7 +24,7 @@ h1, p{
 footer {
   background-color: #413659;
   color: white;
-  font-size: 11px;
+  font-size: .68rem;
   font-family: 'Forum', cursive;
 }
 
@@ -35,7 +35,7 @@ footer {
 
 .portfolio-header h1{
   color: white;
-  font-size: 55px;
+  font-size: 3.63rem;
   font-family: 'Comfortaa', cursive;
 }
 
@@ -50,7 +50,7 @@ footer {
 
 .nav-bar a{
   color: white;
-  font-size: 18px;
+  font-size: 1.25rem;
 }
 
 .check-it-out{
@@ -61,6 +61,6 @@ footer {
 
 @media (min-width: 640px){
   .portfolio-header h1{
-    font-size: 70px;
+    font-size: 4.37rem;
   }
 }
