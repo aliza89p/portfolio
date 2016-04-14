@@ -9,48 +9,52 @@
     <link rel="stylesheet" href="styles/module/nav.css">
     <link rel="stylesheet" href="styles/module/style.css">
     <link rel="stylesheet" href="styles/state/hover.css">
+    <script id="project-template" type="text/x-handlebars-template">
+      <article data-author="{{author}}" data-category="{{category}}">
+        <h1 class="title">{{title}}</h1>
+        <p class="date">{{when}}</p>
+        <p class="body">{{about}}</p>
+        <a href="{{infoUrl}}" class="check-it-out" target="_blank">Check it out!</a>
+      </article>
+    </script>
   </head>
   <body>
+    <header class="portfolio-header">
+      <h1>Aliza Pilisuk</h1>
+    </header>
+    <nav class="nav-bar">
+      <div class="icon-menu">
+      </div>
+      <ul class="nav-items">
+        <li class="page tab" data-content="projects"><a href="#" class="icon-home">Projects</a></li>
+
+        <li class="page tab" data-content="about"><a href="#" class="icon-profile">About</a></li>
+
+        <li class="tab"><a href="https://github.com/aliza89p" target="_blank" class="icon-github">Github</a></li>
+
+        <li class="tab"><a href="https://www.linkedin.com/in/alizapilisuk" target="_blank" class="icon-linkedin">LinkedIn</a></li>
+      </ul>
+    </nav>
     <main>
-      <header class="portfolio-header">
-        <h1>Aliza Pilisuk</h1>
+    <section id="projects" class="page-content">
+    </section>
+    <section id="about" class="page-content">
+      <header>
+        <h1>About Me:</h1>
       </header>
-      <nav class="nav-bar">
-        <div class="icon-menu">
-        </div>
-        <ul class="nav-items">
-          <li class="page tab" data-content="projects"><a href="#" class="icon-home">Projects</a></li>
-
-          <li class="page tab" data-content="about"><a href="#" class="icon-profile">About</a></li>
-
-          <li class="tab"><a href="https://github.com/aliza89p" target="_blank" class="icon-github">Github</a></li>
-
-          <li class="tab"><a href="https://www.linkedin.com/in/alizapilisuk" target="_blank" class="icon-linkedin">LinkedIn</a></li>
-        </ul>
-      </nav>
-      <section id="projects" class="page-content">
-        <article class="template">
-          <h1 class="title"></h1>
-          <p class="date"></p>
-          <p class="body"></p>
-        </article>
-      </section>
-      <section id="about" class="page-content">
-        <header>
-          <h1>About Me:</h1>
-        </header>
-        <div class="bio-photo">
-          <img src="img/biophoto.jpg">
-        </div>
-        <article class="bio">
-          <p>I am a web developer passioniate about social justice. My background is in music and social sciences, but ever since childhood I have always loved to build things and problem solve. I am currently attending an immersive full-stack JavaScript program at <a href="https://www.codefellows.org/" target="_blank">Code Fellows</a> where I am strengthening my web developement skills. I firmly believe that innovation is driven by diversity and I am interested in working with a team to utilize technology towards positive social change.</p><p>The web is a powerful tool. Let's use it to change the world!</p>
-        </article>
-      </section>
+      <div class="bio-photo">
+        <img src="img/biophoto.jpg">
+      </div>
+      <article class="bio">
+        <p>I am a web developer passioniate about social justice. My background is in music and social sciences, but ever since childhood I have always loved to build things and problem solve. I am currently attending an immersive full-stack JavaScript program at <a href="https://www.codefellows.org/" target="_blank">Code Fellows</a> where I am strengthening my web developement skills. I firmly believe that innovation is driven by diversity and I am interested in working with a team to utilize technology towards positive social change.</p><p>The web is a powerful tool. Let's use it to change the world!</p>
+      </article>
+    </section>
     </main>
     <footer>
       Copyright &copy; 2016 - Aliza Pilisuk
     </footer>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
     <script src="scripts/projectContent.js"></script>
     <script src="scripts/projectView.js"></script>
     <script src="scripts/project.js"></script>

@@ -6,7 +6,6 @@ projectView.handleNavBar = function(){
     $('#' + $(this).data('content')).show();
     console.log('#' + $(this).data('content'));
   });
-
   $('.nav-bar .page:first').click();
 };
 
