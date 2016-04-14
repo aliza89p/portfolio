@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Forum|Roboto|Comfortaa|Pacifico);
+
+body{
+    background-color: #F2EFDF;
+}
+
+section{
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  border: 1px dashed #211426;
+  border-radius: 10px;
+}
+
+main h1{
+  font-family: 'Pacifico', cursive;
+}
+article a{
+  color: #2B8682;
+}
+
+h1, p{
+  color: #413659;
+}
+footer {
+  background-color: #413659;
+  color: white;
+  font-size: 11px;
+  font-family: 'Forum', cursive;
+}
+
+.portfolio-header{
+  background-color: #656F8C;
+  color: white;
+}
+
+.portfolio-header h1{
+  color: white;
+  font-size: 55px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.nav-bar{
+  background-color: #413659;
+  color: white;
+}
+
+.nav-bar li{
+  font-family: 'Poiret One', cursive;
+}
+
+.nav-bar a{
+  color: white;
+  font-size: 18px;
+}
+
+.check-it-out{
+  background-color: #B8CAFF;
+  color: #413659;
+  border: 1px solid #413659;
+}
+
+@media (min-width: 640px){
+  .portfolio-header h1{
+    font-size: 70px;
+  }
+}
