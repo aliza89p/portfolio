@@ -2,10 +2,6 @@ section{
   padding: 5px 15px 25px 15px;
 }
 
-nav, footer {
-  width: 90%;
-}
-
 main {
   display: block;
   position: relative;
@@ -17,12 +13,10 @@ main {
 footer {
   text-align: center;
   margin: 0 auto;
-  width: 90%;
   padding: 2px 0;
 }
 
 .portfolio-header{
-  width: 90%;
   margin: 0 auto;
 }
 
@@ -35,7 +29,7 @@ footer {
 .nav-bar{
   position: relative;
   display: block;
-  margin: 10px auto;
+  margin: 0 auto;
   padding: 10px;
   padding-bottom: 10px;
 }
