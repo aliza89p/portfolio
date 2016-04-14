@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Poiret+One|Forum|Roboto);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Forum|Roboto|Comfortaa|Pacifico);
 
 body{
     background-color: #F2EFDF;
@@ -18,6 +18,49 @@ main {
   margin: 0 auto;
   padding: 20px;
 }
+.icon-menu{
+  margin-left: 10px;
+}
+
+.nav-bar{
+  position: relative;
+  display: block;
+  margin: 10px auto;
+  background-color: #413659;
+  color: white;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-bar ul{
+  display: none;
+  margin-top: 0;
+  padding-left: 0;
+}
+.nav-bar:hover ul{
+  display: block;
+  margin-left: 40px;
+  margin-top: -25px;
+  margin-bottom: 0;
+}
+
+.nav-bar li{
+  display: list-item;;
+  padding-top: 10px;
+  font-family: 'Poiret One', cursive;
+  list-style-type: none;
+}
+
+.nav-bar a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.nav-bar a:hover{
+  color: lightblue;
+}
 
 .portfolio-header{
   background-color: #656F8C;
@@ -29,32 +72,9 @@ main {
   text-align: center;
   color: white;
   font-size: 55px;
-  font-family: 'Forum', cursive;
+  font-family: 'Comfortaa', cursive;
   padding: 5px 0;
   margin: 0 auto;
-}
-
-nav {
-  display: block;
-  position: relative;
-  margin: 10px auto;
-  background-color: #413659;
-
-}
-nav ul{
-  text-align: center;
-}
-nav li{
-  display: inline-block;
-  margin: 0 auto;
-  padding: 3px 10px;
-  font-family: 'Poiret One', cursive;
-}
-nav a{
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  padding: 10px;
 }
 
 .check-it-out{
@@ -65,13 +85,19 @@ nav a{
   padding: 5px;
   text-decoration: none;
 }
+main h1{
+    font-family: 'Pacifico', cursive;
+}
 article a{
   color: #2B8682;
 }
-h1, p{
-    color: #413659;
-}
 
+h1, p{
+  color: #413659;
+}
+.bio-photo img{
+  max-width: 100%;
+}
 footer {
   text-align: center;
   background-color: #413659;
@@ -82,3 +108,38 @@ footer {
   font-size: 11px;
   font-family: 'Forum', cursive;
 }
+
+@media (min-width: 640px){
+  .nav-bar ul{
+    display: inline-block;
+    margin: 0;
+  }
+  .nav-bar:hover ul{
+    margin: 0;
+    padding: 0;
+  }
+  .nav-bar li{
+    display: inline-block;
+    padding: 0;
+  }
+  .icon-menu {
+    display: none;
+  }
+  .portfolio-header h1{
+    font-size: 70px;
+  }
+  .page-content {
+    position: absolute;
+  }
+  .bio-photo img{
+    position: relative;
+    float: left;
+    padding: 10px;
+  }
+  .bio p{
+    margin-top: 50px;
+  }
+  section{
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
