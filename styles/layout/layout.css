@@ -82,8 +82,7 @@ footer {
   .portfolio-header h1{
     font-size: 70px;
   }
-  
-  .bio-photo img{
+  .bio-photo{
     position: relative;
     float: left;
     padding: 10px;
@@ -94,5 +93,8 @@ footer {
   section{
     margin-right: 20px;
     margin-bottom: 20px;
+  }
+  #about{
+    padding-bottom: 200px;
   }
 }
