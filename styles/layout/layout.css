@@ -1,39 +1,3 @@
-section{
-  padding: 5px 15px 25px 15px;
-}
-
-main {
-  display: block;
-  position: relative;
-  width: 90%;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-footer {
-  text-align: center;
-  margin: 0 auto;
-  padding: 2px 0;
-}
-
-.portfolio-header{
-  margin: 0 auto;
-}
-
-.portfolio-header h1{
-  text-align: center;
-  padding: 5px 0;
-  margin: 0 auto;
-}
-
-.nav-bar{
-  position: relative;
-  display: block;
-  margin: 0 auto;
-  padding: 10px;
-  padding-bottom: 10px;
-}
-
 .check-it-out{
   padding: 5px;
   text-decoration: none;
@@ -49,9 +13,11 @@ footer {
     float: left;
     padding: 10px;
   }
+
   .bio p{
     margin-top: 50px;
   }
+
   #about{
     padding-bottom: 200px;
   }
