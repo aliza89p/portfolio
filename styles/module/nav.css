@@ -1,0 +1,46 @@
+.icon-menu{
+  margin-left: 10px;
+}
+
+.nav-bar{
+  position: relative;
+  display: block;
+  margin: 10px auto;
+  background-color: #413659;
+  color: white;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-bar ul{
+  display: none;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.nav-bar li{
+  display: list-item;;
+  padding-top: 10px;
+  font-family: 'Poiret One', cursive;
+  list-style-type: none;
+}
+
+.nav-bar a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+}
+
+@media (min-width: 640px){
+  .nav-bar ul{
+    display: inline-block;
+    margin: 0;
+  }
+  .nav-bar li{
+    display: inline-block;
+    padding: 0;
+  }
+  .icon-menu {
+    display: none;
+  }

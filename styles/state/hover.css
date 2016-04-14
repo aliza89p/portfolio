@@ -1,0 +1,16 @@
+.nav-bar:hover ul{
+  display: block;
+  margin-left: 40px;
+  margin-top: -25px;
+  margin-bottom: 0;
+}
+
+.nav-bar a:hover{
+  color: lightblue;
+}
+
+@media (min-width: 640px){
+.nav-bar:hover ul{
+  margin: 0;
+  padding: 0;
+}
