@@ -43,6 +43,7 @@ main {
   margin-top: -25px;
   margin-bottom: 0;
 }
+
 .nav-bar li{
   display: list-item;;
   padding-top: 10px;
@@ -58,7 +59,7 @@ main {
 }
 
 .nav-bar a:hover{
-  color: #8faea6;
+  color: lightblue;
 }
 
 .portfolio-header{
@@ -142,4 +143,3 @@ footer {
     margin-right: 20px;
     margin-bottom: 20px;
   }
-}
