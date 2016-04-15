@@ -1,0 +1,24 @@
+.check-it-out{
+  padding: 5px;
+  text-decoration: none;
+}
+
+.bio-photo img{
+  max-width: 100%;
+}
+
+@media (min-width: 640px){
+  .bio-photo{
+    position: relative;
+    float: left;
+    padding: 10px;
+  }
+
+  .bio p{
+    margin-top: 50px;
+  }
+
+  #about{
+    padding-bottom: 200px;
+  }
+}

@@ -1,0 +1,34 @@
+.icon-menu{
+  margin-left: 10px;
+}
+
+.nav-bar ul{
+  display: none;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.nav-bar li{
+  padding-top: 10px;
+  display: list-item;;
+  list-style-type: none;
+}
+
+.nav-bar a{
+  text-decoration: none;
+  padding: 10px;
+}
+
+@media (min-width: 640px){
+  .nav-bar ul{
+    padding-left: 15px;
+    display: inline-block;
+    margin: 0;
+  }
+  .nav-bar li{
+    display: inline-block;
+    padding: 0;
+  }
+  .icon-menu {
+    display: none;
+  }
