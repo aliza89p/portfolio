@@ -4,7 +4,7 @@ var projectData = [
     class: 'code-project',
     id: 'welcome-to-seattle',
     when: 'March, 2015',
-    about: 'As the final project for the 201 level web developement course at Code Fellows, I worked with a team to create the "Welcome to Seattle" website. This tool is designed to help Seattle newcomers find the best neighborhood to meets thier needs.',
+    about: '<p>As the final project for the 201 level web developement course at Code Fellows, I worked with a team to create the "Welcome to Seattle" website. This tool is designed to help Seattle newcomers find the best neighborhood to meets thier needs.</p>',
     infoUrl: 'http://peterbreen.github.io/welcome-to-seattle/'
 
   },
