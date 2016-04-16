@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Poiret+One|Forum|Roboto|Comfortaa|Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Forum|Roboto|Pacifico);
 
 body{
     background-color: #F2EFDF;
@@ -36,7 +36,7 @@ footer {
 .portfolio-header h1{
   color: white;
   font-size: 3.63rem;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Forum', cursive;
 }
 
 .nav-bar{
@@ -61,6 +61,6 @@ footer {
 
 @media (min-width: 640px){
   .portfolio-header h1{
-    font-size: 4.37rem;
+    font-size: 5rem;
   }
 }
