@@ -6,14 +6,20 @@
   Project.all = [];
 
   Project.prototype.toHtml = function(){
-    var template = Handlebars.compile($('#project-template').html());
+    var template = Handlebars.compile($('#project-template').text());
+
+    this.daysAgo = parseInt((new Date() - new Date(this.when))/60/60/24/1000);
+    this.dateStatus = this.when ? 'published' + this.daysAgo + 'days ago' : '(draft)';
 
     return template(this);
   };
 
   Project.loadAllProjects = function(dataPassedIn){
-    dataPassedIn.forEach(function(ele) {
-      Project.all.push(new Project(ele));
+    dataPassedIn.sort(function(a,b){
+      return (new Date(b.when)) - (new Date(a.when));
+    });
+    Project.all = dataPassedIn.map(function(ele){
+      return new Project(ele);
     });
   };
 
