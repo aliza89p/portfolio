@@ -7,10 +7,6 @@
 
   Project.prototype.toHtml = function(){
     var template = Handlebars.compile($('#project-template').text());
-
-    this.daysAgo = parseInt((new Date() - new Date(this.when))/60/60/24/1000);
-    this.dateStatus = this.when ? 'published' + this.daysAgo + 'days ago' : '(draft)';
-
     return template(this);
   };
 
