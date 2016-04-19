@@ -5,25 +5,26 @@ function Project (obj){
 Project.all = [];
 
 Project.prototype.toHtml = function(){
-  var $newProject = $('#project-template').html();
-  var template = Handlebars.compile($newProject);
+  var template = Handlebars.compile($('#project-template').html());
 
   return template(this);
 };
 
-Project.loadAllProjects = function (data){
-  projectData.forEach(function(ele) {
+Project.loadAllProjects = function(dataPassedIn){
+  dataPassedIn.forEach(function(ele) {
     Project.all.push(new Project(ele));
   });
 };
 
 Project.fetchAllProjects = function(){
   if(localStorage.projectContent){
+    console.log(localStorage.projectContent);
     $.ajax({
       type: 'HEAD',
       url: '../data/projectContent.json',
       success:function (data, message, xhr){
         var eTag = xhr.getResponseHeader('eTag');
+        console.log(eTag);
         if (eTag === localStorage.eTag){
           projectView.initializeIndex();
         }else{
