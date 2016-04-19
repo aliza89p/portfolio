@@ -8,6 +8,10 @@ projectView.handleNavBar = function(){
   $('.nav-bar .page:first').click();
 };
 
-$(document).ready(function(){
+
+projectView.initializeIndex = function(){
+  Project.all.forEach(function(a){
+    $('#projects').append(a.toHtml());
+  });
   projectView.handleNavBar();
-});
+};
