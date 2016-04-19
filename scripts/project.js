@@ -1,8 +1,8 @@
-var projects = [];
-
 function Project (obj){
   for (key in obj) this[key] = obj[key];
 };
+
+Project.all = [];
 
 Project.prototype.toHtml = function(){
   var $newProject = $('#project-template').html();
@@ -11,10 +11,36 @@ Project.prototype.toHtml = function(){
   return template(this);
 };
 
-projectData.forEach(function(ele) {
-  projects.push(new Project(ele));
-});
+Project.loadAllProjects = function (data){
+  projectData.forEach(function(ele) {
+    Project.all.push(new Project(ele));
+  });
+};
 
-projects.forEach(function(a){
-  $('#projects').append(a.toHtml());
-});
+Project.fetchAllProjects = function(){
+  if(localStorage.projectContent){
+    $.ajax({
+      type: 'HEAD',
+      url: '../data/projectContent.json',
+      success:function (data, message, xhr){
+        var eTag = xhr.getResponseHeader('eTag');
+        if (eTag === localStorage.eTag){
+          projectView.initializeIndex();
+        }else{
+          localStorage.eTag = eTag;
+          $.getJSON('../data/projectContent.json', function(data){
+            Project.loadAllProjects(data);
+            localStorage.projectContent = JSON.stringify(data);
+            projectView.initializeIndex();
+          });
+        }
+      }
+    });
+  }else{
+    $.getJSON('../data/projectContent.json', function(data){
+      Project.loadAllProjects(data);
+      localStorage.projectContent = JSON.stringify(data);
+      projectView.initializeIndex();
+    });
+  }
+};
