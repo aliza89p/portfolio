@@ -26,6 +26,7 @@ Project.fetchAllProjects = function(){
         var eTag = xhr.getResponseHeader('eTag');
         console.log(eTag);
         if (eTag === localStorage.eTag){
+          Project.loadAllProjects(JSON.parse(localStorage.projectContent));
           projectView.initializeIndex();
         }else{
           localStorage.eTag = eTag;
