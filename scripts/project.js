@@ -19,13 +19,11 @@
 
   Project.fetchAllProjects = function(callBackFunction){
     if(localStorage.projectContent){
-      console.log(localStorage.projectContent);
       $.ajax({
         type: 'HEAD',
         url: '../data/projectContent.json',
         success:function (data, message, xhr){
           var eTag = xhr.getResponseHeader('eTag');
-          console.log(eTag);
           if (eTag === localStorage.eTag){
             Project.loadAllProjects(JSON.parse(localStorage.projectContent));
             callBackFunction();
