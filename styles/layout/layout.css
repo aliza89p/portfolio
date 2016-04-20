@@ -3,10 +3,6 @@
   text-decoration: none;
 }
 
-.bio-photo img{
-  max-width: 100%;
-}
-
 @media (min-width: 640px){
   .bio-photo{
     position: relative;
@@ -15,7 +11,11 @@
   }
 
   .bio p{
-    margin-top: 50px;
+    margin-top: 40px;
+  }
+
+  .date{
+    margin-left: 5px;
   }
 
   #about{
