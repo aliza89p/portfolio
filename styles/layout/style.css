@@ -57,6 +57,7 @@ footer {
   background-color: #B8CAFF;
   color: #413659;
   border: 1px solid #413659;
+  box-shadow: 1px 3px 5px black;
 }
 
 @media (min-width: 640px){
