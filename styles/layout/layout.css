@@ -1,7 +1,6 @@
 .check-it-out{
   padding: 5px;
   text-decoration: none;
-  margin-top: 20px;
 }
 
 @media (min-width: 640px){
@@ -12,7 +11,11 @@
   }
 
   .bio p{
-    margin-top: 50px;
+    margin-top: 40px;
+  }
+
+  .date{
+    margin-left: 5px;
   }
 
   #about{
