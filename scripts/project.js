@@ -19,11 +19,11 @@
     });
   };
 
-  Project.getAllProjects = function(){
+  Project.getAllProjects = function(callBackFunction){
     $.getJSON('../data/projectContent.json', function(data){
       Project.loadAllProjects(data);
       localStorage.projectContent = JSON.stringify(data);
-      projectView.initializeIndex();
+      callBackFunction();
     });
   };
 
@@ -39,12 +39,12 @@
             callBackFunction();
           }else{
             localStorage.eTag = eTag;
-            Project.getAllProjects();
+            Project.getAllProjects(callBackFunction);
           }
         }
       });
     }else{
-      Article.getAllProjects();
+      Article.getAllProjects(callBackFunction);
     }
   };
 
