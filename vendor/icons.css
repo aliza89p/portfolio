@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src:    url('fonts/icomoon.eot?ltgxn5');
-    src:    url('fonts/icomoon.eot?ltgxn5#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?ltgxn5') format('truetype'),
-        url('fonts/icomoon.woff?ltgxn5') format('woff'),
-        url('fonts/icomoon.svg?ltgxn5#icomoon') format('svg');
+    src:    url('fonts/icomoon.eot?sw49a1');
+    src:    url('fonts/icomoon.eot?sw49a1#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?sw49a1') format('truetype'),
+        url('fonts/icomoon.woff?sw49a1') format('woff'),
+        url('fonts/icomoon.svg?sw49a1#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -27,16 +27,22 @@
 .icon-home:before {
     content: "\e900";
 }
-.icon-profile:before {
-    content: "\e904";
-}
-.icon-menu:before {
+.icon-file-text:before {
     content: "\e901";
 }
-.icon-github:before {
+.icon-envelop:before {
     content: "\e902";
 }
-.icon-linkedin:before {
+.icon-user:before {
     content: "\e903";
+}
+.icon-menu:before {
+    content: "\e904";
+}
+.icon-github:before {
+    content: "\e905";
+}
+.icon-linkedin:before {
+    content: "\e906";
 }
 

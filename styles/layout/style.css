@@ -65,6 +65,10 @@ footer {
   box-shadow: 1px 5px 5px black;
 }
 
+#changeTheWorld{
+  font-style: italic;
+}
+
 @media (min-width: 640px){
   .portfolio-header h1{
     font-size: 5rem;
