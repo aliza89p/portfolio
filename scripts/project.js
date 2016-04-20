@@ -12,10 +12,18 @@
 
   Project.loadAllProjects = function(dataPassedIn){
     dataPassedIn.sort(function(a,b){
-      return (new Date(b.when)) - (new Date(a.when));
+      return (new Date(b.numericalDate)) - (new Date(a.numericalDate));
     });
     Project.all = dataPassedIn.map(function(ele){
       return new Project(ele);
+    });
+  };
+
+  Project.getAllProjects = function(){
+    $.getJSON('../data/projectContent.json', function(data){
+      Project.loadAllProjects(data);
+      localStorage.projectContent = JSON.stringify(data);
+      projectView.initializeIndex();
     });
   };
 
@@ -31,20 +39,12 @@
             callBackFunction();
           }else{
             localStorage.eTag = eTag;
-            $.getJSON('../data/projectContent.json', function(data){
-              Project.loadAllProjects(data);
-              localStorage.projectContent = JSON.stringify(data);
-              callBackFunction();
-            });
+            Project.getAllProjects();
           }
         }
       });
     }else{
-      $.getJSON('../data/projectContent.json', function(data){
-        Project.loadAllProjects(data);
-        localStorage.projectContent = JSON.stringify(data);
-        projectView.initializeIndex();
-      });
+      Article.getAllProjects();
     }
   };
   module.Project = Project;
