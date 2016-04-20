@@ -1,10 +1,11 @@
 .check-it-out{
   padding: 5px;
   text-decoration: none;
+  margin-top: 20px;
 }
 
-.bio-photo img{
-  max-width: 100%;
+.projectImg{
+  margin-bottom: 15px;
 }
 
 @media (min-width: 640px){
