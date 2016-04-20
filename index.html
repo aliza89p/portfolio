@@ -11,12 +11,11 @@
     <link rel="stylesheet" href="styles/module/nav.css">
     <link rel="stylesheet" href="styles/state/hover.css">
     <script id="project-template" type="text/x-handlebars-template">
-      <article data-author="{{author}}" data-category="{{category}}">
-          <h1>{{title}}</h1>
-          <p>{{writtenDate}}</p>
-          <img src="{{imgUrl}}" class="projectImg">
-            {{{about}}}
-          </article>
+      <article>
+        <h1>{{title}}</h1>
+        <p class="date">{{writtenDate}}</p>
+        <img src="{{imgUrl}}" class="projectImg">
+          {{{about}}}
         <a href="{{infoUrl}}" class="check-it-out" target="_blank">Check it out!</a>
       </article>
     </script>
