@@ -44,7 +44,7 @@
         }
       });
     }else{
-      Article.getAllProjects(callBackFunction);
+      Project.getAllProjects(callBackFunction);
     }
   };
 
