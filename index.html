@@ -12,11 +12,15 @@
     <link rel="stylesheet" href="styles/state/hover.css">
     <script id="project-template" type="text/x-handlebars-template">
       <article>
-        <h1>{{title}}</h1>
+        <h1 class="clearfix">{{title}}</h1>
         <p class="date">{{writtenDate}}</p>
         <img src="{{imgUrl}}" class="projectImg">
+        <section class="about-projects">
           {{{about}}}
-        <a href="{{infoUrl}}" class="check-it-out" target="_blank">Check it out!</a>
+        </section>
+        <div class="check-it-out clearfix">
+          <a href="{{infoUrl}}" target="_blank">Check it out!</a>
+        </div>
       </article>
     </script>
   </head>
