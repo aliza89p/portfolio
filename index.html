@@ -12,11 +12,15 @@
     <link rel="stylesheet" href="styles/state/hover.css">
     <script id="project-template" type="text/x-handlebars-template">
       <article>
-        <h1>{{title}}</h1>
+        <h1 class="clearfix">{{title}}</h1>
         <p class="date">{{writtenDate}}</p>
         <img src="{{imgUrl}}" class="projectImg">
+        <section class="about-projects">
           {{{about}}}
-        <a href="{{infoUrl}}" class="check-it-out" target="_blank">Check it out!</a>
+        </section>
+        <div class="check-it-out clearfix">
+          <a href="{{infoUrl}}" target="_blank">Check it out!</a>
+        </div>
       </article>
     </script>
   </head>
@@ -32,13 +36,7 @@
 
         <li class="page tab" data-content="projects"><a href="#" class="icon-file-text">Projects</a></li>
 
-        <li class="tab"><a href="https://github.com/aliza89p" target="_blank" class="icon-github">Github</a></li>
-
-        <li class="tab"><a href="https://www.linkedin.com/in/alizapilisuk" target="_blank" class="icon-linkedin">LinkedIn</a></li>
-
         <li class="page tab" data-content="about"><a href="#" class="icon-user">About</a></li>
-
-        <li class="tab"><a href="mailto:apilisuk@gmail.com" class="icon-envelop">Contact</a></li>
       </ul>
     </nav>
     <main>
@@ -57,6 +55,7 @@
         <h1>About Me:</h1>
       </header>
       <div class="bio-photo">
+
         <img src="img/biophoto.jpg">
       </div>
       <article class="bio">
@@ -64,11 +63,16 @@
       </article>
     </section>
     </main>
-    <footer>
-      Copyright &copy; 2016 - Aliza Pilisuk
+    <footer class="footer-bar">
+      <ul>
+        <li><a href="mailto:apilisuk@gmail.com" class="icon-envelop"></a></li>
+        <li><a href="https://github.com/aliza89p" target="_blank" class="icon-github"></a></li>
+        <li><a href="https://www.linkedin.com/in/alizapilisuk" target="_blank" class="icon-linkedin"></a></li>
+      </ul>
+      <p>Copyright &copy; 2016 ~ AP</p>
     </footer>
-    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+    <script src="vendor/jQuery.js"></script>
+    <script src="vendor/handlebars.js"></script>
     <script src="scripts/project.js"></script>
     <script src="scripts/projectView.js"></script>
     <script>

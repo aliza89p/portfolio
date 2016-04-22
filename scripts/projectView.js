@@ -9,12 +9,13 @@
     $('.nav-bar .page:first').click();
   };
 
-
   projectView.initializeIndex = function(){
     Project.all.forEach(function(a){
       $('#projects').append(a.toHtml());
     });
     projectView.handleNavBar();
   };
+
   module.projectView = projectView;
+
 })(window);

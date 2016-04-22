@@ -1,7 +1,14 @@
 section{
   padding: 5px 15px 25px 15px;
 }
+html{
+  height: 100%;
+}
 
+body{
+  position: relative;
+  min-height: 100%;
+}
 main {
   display: block;
   position: relative;
@@ -18,10 +25,13 @@ main h1{
 article{
   margin: 4px 5px 20px 5px;
 }
+
 footer {
-  text-align: center;
   margin: 0 auto;
-  padding: 2px 0;
+  padding: 3px 0;
+  position: absolute;
+  bottom: 0;
+  min-width: 100%;
 }
 
 header{
@@ -39,6 +49,7 @@ nav{
   display: block;
   margin: 0 auto;
   padding: 10px;
+  width: 100%;
 }
 
 img{

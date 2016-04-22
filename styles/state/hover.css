@@ -9,11 +9,16 @@
   color: lightblue;
 }
 
+.footer-bar a:hover{
+  color: lightblue;
+  }
+}
+
 .check-it-out:hover{
   background-color: #e2e9ff;
 }
 
-@media (min-width: 640px){
+@media only screen and (min-width: 640px){
 .nav-bar:hover ul{
   margin: 0;
   padding: 0;
