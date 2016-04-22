@@ -11,8 +11,11 @@
     <link rel="stylesheet" href="styles/layout/style.css">
     <link rel="stylesheet" href="styles/module/nav.css">
     <link rel="stylesheet" href="styles/state/hover.css">
-    <script id="project-template" type="text/x-handlebars-template">
-      <article>
+    <script class="project-template" type="text/x-handlebars-template">
+      <select id="category-filter">
+        <option value="">-- Filter by Categories --</option>
+      </select>
+      <article class="clearfix" data-category="{{category}}">
         <h1 class="clearfix">{{title}}</h1>
         <p class="date">{{writtenDate}}</p>
         <img src="{{imgUrl}}" class="projectImg">

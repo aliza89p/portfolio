@@ -6,7 +6,7 @@
   Project.all = [];
 
   Project.prototype.toHtml = function(){
-    var template = Handlebars.compile($('#project-template').text());
+    var template = Handlebars.compile($('.project-template').text());
     return template(this);
   };
 
