@@ -11,6 +11,27 @@
   padding-bottom: 0;
 }
 
+.footer-bar ul{
+  padding-left: 15px;
+  display: inline-block;
+  float: left;
+  margin: 0;
+}
+.footer-bar li{
+  display: inline-block;
+  padding: 0;
+}
+
+.footer-bar p{
+  padding-right: 5px;
+  float: right;
+  margin: 1px 10px 0 1px;
+}
+
+.page-content{
+  margin-bottom: 30px;
+}
+
 @media only screen and (min-width: 640px){
   .projectImg {
     position:relative;

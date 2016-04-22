@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Poiret+One|Forum|Roboto|Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Forum|Roboto|Pacifico|Monoton);
 
 body{
     background-color: #F2EFDF;
@@ -15,22 +15,30 @@ article a{
 h1, p{
   color: #413659;
 }
-footer {
+.footer-bar {
   background-color: #413659;
-  color: white;
-  font-size: .68rem;
   font-family: 'Forum', cursive;
+}
+
+.footer-bar a{
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.footer-bar p{
+  color: white;
+  font-size: .8rem;
 }
 
 .portfolio-header{
   background-color: #656F8C;
-  color: white;
+  font-family: 'Forum', cursive;
 }
 
 .portfolio-header h1{
   color: white;
   font-size: 3.63rem;
-  font-family: 'Forum', cursive;
 }
 
 .page-content{
