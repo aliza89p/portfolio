@@ -6,16 +6,9 @@
     <title>Aliza Pilisuk</title>
     <link rel="stylesheet" href="vendor/normalize.css">
     <link rel="stylesheet" href="vendor/icons.css">
-    <link rel="stylesheet" href="styles/base/base.css">
-    <link rel="stylesheet" href="styles/layout/layout.css">
-    <link rel="stylesheet" href="styles/layout/style.css">
-    <link rel="stylesheet" href="styles/module/nav.css">
-    <link rel="stylesheet" href="styles/state/hover.css">
+    <link rel="stylesheet" href="styles/base/base2.css">
     <script class="project-template" type="text/x-handlebars-template">
-      <select id="category-filter">
-        <option value="">-- Filter by Categories --</option>
-      </select>
-      <article class="clearfix" data-category="{{category}}">
+      <article class="clearfix projects" data-category="{{category}}">
         <h1 class="clearfix">{{title}}</h1>
         <p class="date">{{writtenDate}}</p>
         <img src="{{imgUrl}}" class="projectImg">
@@ -29,20 +22,20 @@
     </script>
   </head>
   <body>
-    <header class="portfolio-header">
-      <h1>Aliza Pilisuk</h1>
-    </header>
-    <nav class="nav-bar">
-      <div class="icon-menu">
+    <header class="header-container">
+      <div class="header-inner">
+        <h1>A.A.P</h1>
+          <div class="icon-menu">
+          </div>
+          <ul class="nav-items">
+            <li class="page tab" data-content="home"><a href="#" class="icon-home">Home</a></li>
+
+            <li class="page tab" data-content="projects"><a href="#" class="icon-file-text">Projects</a></li>
+
+            <li class="page tab" data-content="about"><a href="#" class="icon-user">About</a></li>
+          </ul>
       </div>
-      <ul class="nav-items">
-        <li class="page tab" data-content="home"><a href="#" class="icon-home">Home</a></li>
-
-        <li class="page tab" data-content="projects"><a href="#" class="icon-file-text">Projects</a></li>
-
-        <li class="page tab" data-content="about"><a href="#" class="icon-user">About</a></li>
-      </ul>
-    </nav>
+    </header>
     <main>
     <section id="home" class="page-content">
       <header>
@@ -53,6 +46,9 @@
       </article>
     </section>
     <section id="projects" class="page-content">
+      <select id="category-filter">
+        <option value="">Filter</option>
+      </select>
     </section>
     <section id="about" class="page-content">
       <header>
@@ -67,7 +63,7 @@
       </article>
     </section>
     </main>
-    <footer class="footer-bar">
+    <footer>
       <ul>
         <li><a href="mailto:apilisuk@gmail.com" class="icon-envelop"></a></li>
         <li><a href="https://github.com/aliza89p" target="_blank" class="icon-github"></a></li>
