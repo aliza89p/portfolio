@@ -14,7 +14,7 @@ body {
 
 a{
   text-decoration: none;
-  color: black;
+  color: #3B3B3B;
 }
 .logo {
   font-family: 'Baumans', cursive;
@@ -83,7 +83,7 @@ img{
 
 .header-inner ul a{
   margin-left: 20px;
-  color: black;
+  color: #3B3B3B;
   font-size: 22px;
   width: 100%;
   z-index: 1;
@@ -186,15 +186,19 @@ footer p{
 }
 
 .nav-items a:hover{
-  color:blue;
+  color: black;
 }
 
 footer a:hover{
-  color: blue;
+  color: black;
+}
+.aliza-photo{
+  text-align: center;
 }
 .aliza-photo img{
   border-radius: 60px;
 }
+
 @media (min-width: 640px){
   .header-inner h1 {
     top: 20px;
