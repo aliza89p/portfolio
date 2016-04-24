@@ -13,7 +13,7 @@
     });
   };
 
-  // articleView.handleCategoryFilter = function() {
+  // projectView.handleCategoryFilter = function() {
   //   $('#category-filter').on('change', function() {
   //     if ($(this).val()) {
   //       $('article').hide();
@@ -26,11 +26,11 @@
   // };
 
   projectView.handleNavBar = function(){
-    $('.nav-bar').on('click', '.page', function(){
+    $('.nav-items').on('click', '.page', function(){
       $('.page-content').hide();
       $('#' + $(this).data('content')).show();
     });
-    $('.nav-bar .page:first').click();
+    $('.nav-items .page:first').click();
   };
 
   projectView.initializeIndex = function(){

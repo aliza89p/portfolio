@@ -1,67 +1,130 @@
-.check-it-out{
-  padding: 5px;
-  width: 100px;
-  margin-left: 15px;
-}
-.check-it-out a{
-  text-decoration: none;
+.header-container {
+  position: relative;
+  height: 130px;
 }
 
-.about-projects{
-  padding-bottom: 0;
+.header-inner {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
-.footer-bar ul{
-  padding-left: 15px;
-  display: inline-block;
-  float: left;
+.header-inner h1 {
+  position: absolute;
+  width: 120px;
+  text-align: center;
+  display:inline-block;
+  right: 20px;
+  font-size: 80px;
+  padding: 0;
   margin: 0;
 }
-.footer-bar li{
-  display: inline-block;
+.aliza-title{
+  position: absolute;
+  display:inline-block;
+  right: 155px;
+  margin-top: 8px;
+  width: 140px;
+}
+.aliza-title h2{
+  margin-top: 0;
+  text-align: right;
+  font-size: 22px;
   padding: 0;
 }
-
-.footer-bar p{
-  padding-right: 5px;
-  float: right;
-  margin: 1px 10px 0 1px;
+.aliza-title p{
+  margin-top: -20px;
+  text-align: right;
+  font-size: 15px;
 }
 
 .page-content{
+  display: block;
+  width: 90%;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
 
-@media only screen and (min-width: 640px){
+.bio p{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.check-it-out{
+  width: 100%;
+  margin: 0 20px;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.skills-container {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.clearfix {
+  clear: both;
+}
+
+#category-filter {
+  width: 100%;
+  padding: 5px;
+}
+
+.aliza-photo{
+  text-align: center;
+}
+.aliza-photo img{
+  border-radius: 60px;
+}
+
+@media (min-width: 640px){
+  .header-inner h1 {
+    top: 20px;
+  }
+
+  .aliza-title{
+    margin-top: 28px;
+    z-index: 0;
+  }
+  #category-filter {
+    width: 200px;
+  }
+
   .projectImg {
     position:relative;
     float: left;
     padding: 20px;
   }
 
-  .clearfix{
-    clear:both;
-  }
-
-  .about-projects{
-    margin-top: 3%;
-  }
-
-  .bio-photo{
+  .aliza-photo{
     position: relative;
     float: left;
     padding: 10px;
   }
+  .about-projects {
+    margin-top: 5%;
+  }
 
-  .bio p{
-    margin-top: 40px;
+  .welcome p{
+    padding-top: 50px;
   }
 
   .date{
     margin-left: 5px;
   }
+  .skills {
+    float: left;
+  }
+  .skills{
+    margin: 0 auto;
+  }
+  .languages{
+    margin-left: 70px;
+    float: left;
+  }
 
-  #about{
-    padding-bottom: 200px;
+  .clearfix{
+    clear:both;
   }
 }

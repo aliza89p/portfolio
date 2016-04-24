@@ -1,90 +1,57 @@
-@import url(https://fonts.googleapis.com/css?family=Poiret+One|Forum|Roboto|Pacifico|Monoton);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Forum|Roboto|Pacifico|Baumans);
+body {
+  font-family: 'Forum', cursive;
+  font-size: 20px;
+  background: white;
+  color: black;
+}
 
-body{
-    background-color: #F2EFDF;
+a {
+  color: #3B3B3B;
 }
 
 main h1{
   font-family: 'Pacifico', cursive;
   font-size: 2rem;
 }
-article a{
-  color: #2B8682;
+
+.logo {
+  font-family: 'Baumans', cursive;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 2px;
 }
 
-h1, p{
-  color: #413659;
-}
-.footer-bar {
-  background-color: #413659;
-  font-family: 'Forum', cursive;
-}
-
-.footer-bar a{
-  color: white;
-  font-size: 1.2rem;
-  text-decoration: none;
-}
-
-.footer-bar p{
-  color: white;
-  font-size: .8rem;
-}
-
-.portfolio-header{
-  background-color: #656F8C;
-  font-family: 'Forum', cursive;
-}
-
-.portfolio-header h1{
-  color: white;
-  font-size: 3.63rem;
-}
-
-.page-content{
-  background-color: white;
-  font-family: 'Roboto', sans-serif;
-  border: 1px dashed #211426;
+.header-inner h1 {
+  border: 4px solid black;
   border-radius: 10px;
-}
-
-.nav-bar{
-  background-color: #413659;
-  color: white;
-}
-
-.nav-bar li{
-  font-family: 'Poiret One', cursive;
-}
-
-.nav-bar a{
-  color: white;
-  font-size: 1.25rem;
-}
-
-.date{
-  font-size: .9rem;
+  font-family: 'Baumans', cursive;
+  background-color: skyblue;
 }
 
 .check-it-out{
-  background-color: #B8CAFF;
-  font-size: 1.1rem;
-  border: 1px solid #413659;
+  background: black;
   border-radius: 3px;
-  box-shadow: 1px 5px 5px black;
 }
+
 .check-it-out a{
-  color: #413659;
+    color: skyblue;
 }
 
-#changeTheWorld{
-  font-style: italic;
+#category-filter{
+  background: black;
+  color: skyblue;
 }
 
-@media (min-width: 640px){
-  .portfolio-header h1{
-    font-size: 5rem;
-  }
-  main h1{
-    font-size: 2.5rem;
+.aliza-photo img{
+  border-radius: 60px;
+}
+
+.header-inner ul a{
+  color: #3B3B3B;
+  font-size: 22px;
+}
+
+.icon-menu {
+  font-size: 30px;
 }
