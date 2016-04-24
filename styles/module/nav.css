@@ -7,22 +7,25 @@
 }
 
 .header-inner ul a{
-  margin-left: 20px;
   width: 100%;
   z-index: 1;
+  margin-right
 }
+
 .icon-menu {
-  margin: 0px 0 0 20px;
+  margin: 0 0 0 20px;
   padding-top: 20px;
+}
+
+.icon{
+  float: left;
+  margin-left: 20px;
 }
 
 @media (min-width: 640px){
   .header-inner ul{
     padding: 10px;
     display: inline-block;
-  }
-  .header-inner a{
-    margin-left: 20px;
   }
 
   .nav-items li{
@@ -32,4 +35,7 @@
 
   .icon-menu {
     display: none;
+  }
+  .icon{
+    float: left;
   }

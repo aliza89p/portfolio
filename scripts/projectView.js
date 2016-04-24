@@ -13,17 +13,17 @@
     });
   };
 
-  // projectView.handleCategoryFilter = function() {
-  //   $('#category-filter').on('change', function() {
-  //     if ($(this).val()) {
-  //       $('article').hide();
-  //       $('article[data-category="' + $(this).val() + '"]').fadeIn();
-  //     } else {
-  //       $('article').fadeIn();
-  //       $('article.template').hide();
-  //     }
-  //   });
-  // };
+  projectView.handleCategoryFilter = function() {
+    $('#category-filter').on('change', function() {
+      if ($(this).val()) {
+        $('article').hide();
+        $('article[data-category="' + $(this).val() + '"]').fadeIn();
+      } else {
+        $('article').fadeIn();
+        $('article.template').hide();
+      }
+    });
+  };
 
   projectView.handleNavBar = function(){
     $('.nav-items').on('click', '.page', function(){
@@ -38,6 +38,7 @@
       $('#projects').append(a.toHtml());
     });
     projectView.populateFilter();
+    projectView.handleCategoryFilter();
     projectView.handleNavBar();
   };
 

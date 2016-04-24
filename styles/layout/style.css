@@ -49,8 +49,9 @@ main a{
 }
 
 .header-inner ul a{
-  color: white;
-  font-size: 22px;
+  color: skyblue;
+  font-size: 26px;
+  font-family: courier;
 }
 
 .check-it-out{
@@ -67,6 +68,7 @@ main a{
   background: black;
   color: skyblue;
   font-family: courier;
+  font-size: 18px;
   z-index: 0;
 }
 
@@ -87,4 +89,10 @@ footer a{
   border: 1px solid black;
   border-radius: 2px;
   padding: 2px;
+}
+
+@media (min-width: 640px){
+  .header-inner ul a{
+    font-size: 18px;
+  }
 }
