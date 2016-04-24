@@ -1,5 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Poiret+One|Forum|Roboto|Pacifico|Baumans);
 
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+
 body {
   font-family: 'Forum', cursive;
   font-size: 20px;
