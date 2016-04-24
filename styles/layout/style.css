@@ -1,90 +1,106 @@
-@import url(https://fonts.googleapis.com/css?family=Poiret+One|Forum|Roboto|Pacifico|Monoton);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Forum|Roboto|Pacifico|Baumans);
 
-body{
-    background-color: #F2EFDF;
-}
-
-main h1{
-  font-family: 'Pacifico', cursive;
-  font-size: 2rem;
-}
-article a{
-  color: #2B8682;
-}
-
-h1, p{
-  color: #413659;
-}
-.footer-bar {
-  background-color: #413659;
-  font-family: 'Forum', cursive;
-}
-
-.footer-bar a{
-  color: white;
-  font-size: 1.2rem;
+a{
   text-decoration: none;
 }
 
-.footer-bar p{
-  color: white;
-  font-size: .8rem;
+li{
+  list-style-type: none;
 }
 
-.portfolio-header{
-  background-color: #656F8C;
+body {
   font-family: 'Forum', cursive;
+  font-size: 20px;
+  background: white;
+  color: black;
 }
 
-.portfolio-header h1{
+a {
+  color: #3B3B3B;
+}
+
+main h1{
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+main a{
+  color: blue;
+}
+
+.aliza-title h2{
+    font-size: 22px;
+}
+.aliza-title p{
+  font-size: 15px;
+}
+
+.icon-menu {
+  font-size: 30px;
+}
+
+.header-inner{
+  background: black;
   color: white;
-  font-size: 3.63rem;
+  z-index: 1;
 }
 
-.page-content{
-  background-color: white;
-  font-family: 'Roboto', sans-serif;
-  border: 1px dashed #211426;
-  border-radius: 10px;
+.header-inner h1 {
+  border-radius: 8px;
+  font-family: courier;
+  background-color: skyblue;
+  color: black;
+  font-size: 40px;
+}
+.header-inner ul{
+  background-color: black;
 }
 
-.nav-bar{
-  background-color: #413659;
-  color: white;
-}
-
-.nav-bar li{
-  font-family: 'Poiret One', cursive;
-}
-
-.nav-bar a{
-  color: white;
-  font-size: 1.25rem;
-}
-
-.date{
-  font-size: .9rem;
+.header-inner ul a{
+  color: skyblue;
+  font-size: 26px;
+  font-family: courier;
 }
 
 .check-it-out{
-  background-color: #B8CAFF;
-  font-size: 1.1rem;
-  border: 1px solid #413659;
+  background: black;
   border-radius: 3px;
-  box-shadow: 1px 5px 5px black;
-}
-.check-it-out a{
-  color: #413659;
+  font-family: courier;
 }
 
-#changeTheWorld{
-  font-style: italic;
+.check-it-out a{
+  color: skyblue;
+}
+
+#category-filter{
+  background: black;
+  color: skyblue;
+  font-family: courier;
+  font-size: 18px;
+  z-index: 0;
+}
+
+.aliza-photo img{
+  border-radius: 60px;
+}
+
+footer p{
+  font-size: 11px;
+}
+
+footer a{
+  font-size: 25px;
+}
+
+.logo {
+  font-family: courier;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 2px;
 }
 
 @media (min-width: 640px){
-  .portfolio-header h1{
-    font-size: 5rem;
+  .header-inner ul a{
+    font-size: 18px;
   }
-  main h1{
-    font-size: 2.5rem;
 }

@@ -1,57 +1,50 @@
-section{
-  padding: 5px 15px 25px 15px;
-}
-html{
+html {
   height: 100%;
 }
-
-body{
+body {
   position: relative;
   min-height: 100%;
 }
+
+img{
+  max-width: 100%;
+}
+
 main {
   display: block;
   position: relative;
-  width: 90%;
   margin: 0 auto;
-  padding: 20px;
+  padding-bottom: 20px;
+  max-width: 95%;
 }
 
 main h1{
-  margin: 0;
-  margin-bottom: -7px;
-}
-
-article{
-  margin: 4px 5px 20px 5px;
+  text-align: center;
 }
 
 footer {
-  margin: 0 auto;
-  padding: 3px 0;
+  display: block;
+  padding: 3px 0 5px 0;
   position: absolute;
   bottom: 0;
   min-width: 100%;
 }
 
-header{
-  margin: 0 auto;
-}
-
-header h1{
-  text-align: center;
-  padding: 5px 0;
-  margin: 0 auto;
-}
-
-nav{
+article {
   position: relative;
-  display: block;
-  margin: 0 auto;
-  padding: 10px;
-  width: 100%;
 }
 
-img{
-  max-width: 100%;
+footer li{
+  display: inline-block;
+  float: left;
+}
+
+footer a{
+  margin-right: 10px;
+}
+
+footer p{
+  padding-right: 15px;
+  float: right;
+  margin: 1px 10px 0 1px;
 }
