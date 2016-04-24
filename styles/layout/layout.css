@@ -1,6 +1,7 @@
 .header-container {
   position: relative;
   height: 130px;
+  width: 100%;
 }
 
 .header-inner {
@@ -31,13 +32,11 @@
 .aliza-title h2{
   margin-top: 10px;
   text-align: right;
-  font-size: 22px;
   padding: 0;
 }
 .aliza-title p{
   margin-top: -20px;
   text-align: right;
-  font-size: 15px;
 }
 
 .page-content{
@@ -54,7 +53,6 @@
 
 .check-it-out{
   width: 100%;
-  /*margin: 0;*/
   padding: 5px 0;
   text-align: center;
 }

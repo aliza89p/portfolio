@@ -16,11 +16,25 @@ main h1{
   font-weight: bolder;
 }
 
-.logo {
-  font-family: courier;
-  border: 1px solid black;
-  border-radius: 2px;
-  padding: 2px;
+main a{
+  color: blue;
+}
+
+.aliza-title h2{
+    font-size: 22px;
+}
+.aliza-title p{
+  font-size: 15px;
+}
+
+.icon-menu {
+  font-size: 30px;
+}
+
+.header-inner{
+  background: black;
+  color: white;
+  z-index: 1;
 }
 
 .header-inner h1 {
@@ -34,6 +48,11 @@ main h1{
   background-color: black;
 }
 
+.header-inner ul a{
+  color: white;
+  font-size: 22px;
+}
+
 .check-it-out{
   background: black;
   border-radius: 3px;
@@ -41,29 +60,31 @@ main h1{
 }
 
 .check-it-out a{
-    color: skyblue;
+  color: skyblue;
 }
 
 #category-filter{
   background: black;
   color: skyblue;
   font-family: courier;
+  z-index: 0;
 }
 
 .aliza-photo img{
   border-radius: 60px;
 }
 
-.header-inner ul a{
-  color: white;
-  font-size: 22px;
+footer p{
+  font-size: 11px;
 }
 
-.icon-menu {
-  font-size: 30px;
+footer a{
+  font-size: 25px;
 }
 
-.header-inner{
-  background: black;
-  color: white;
+.logo {
+  font-family: courier;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 2px;
 }
