@@ -12,7 +12,8 @@
   z-index: 1;
 }
 .icon-menu {
-  margin: 20px 0 0 20px;
+  margin: 0px 0 0 20px;
+  padding-top: 20px;
 }
 
 @media (min-width: 640px){
