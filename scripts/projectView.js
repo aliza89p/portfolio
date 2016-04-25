@@ -1,8 +1,8 @@
 (function(module){
   var projectView = {};
 
-  projectView.populateFilter = function() {
-    $('article').each(function() {
+  projectView.fillUpCategoryFilter = function() {
+    $('.projects').each(function() {
       if (!$(this).hasClass('project-template')) {
         var val = $(this).attr('data-category');
         var optionTag = '<option value="' + val + '">' + val + '</option>';
@@ -29,7 +29,7 @@
     Project.all.forEach(function(a){
       $('#projects').append(a.toHtml());
     });
-    projectView.populateFilter();
+    projectView.fillUpCategoryFilter();
     projectView.handleCategoryFilter();
   };
 
