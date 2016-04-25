@@ -36,9 +36,9 @@
         <div class="icon-menu">
         </div>
         <ul class="nav-items">
-          <li class="page tab" data-content="home"><a href="#"><div class="icon icon-home"></div>home();</a></li>
-          <li class="page tab" data-content="projects"><a href="#"><div class="icon icon-file-text"></div>projects();</a></li>
-          <li class="page tab" data-content="about"><a href="#"><div class="icon icon-user"></div>about();</a></li>
+          <li class="page tab" data-content="home"><a href="/"><div class="icon icon-home"></div>home();</a></li>
+          <li class="page tab" data-content="projects"><a href="/projects"><div class="icon icon-file-text"></div>projects();</a></li>
+          <li class="page tab" data-content="about"><a href="/about"><div class="icon icon-user"></div>about();</a></li>
         </ul>
       </div>
     </header>
@@ -123,12 +123,14 @@
       </ul>
       <p>Copyright &copy; 2016 - <strong class="logo">&lt;AP&gt;</strong></p>
     </footer>
-    <script src="vendor/jQuery.js"></script>
-    <script src="vendor/handlebars.js"></script>
+    <script src="vendor/scripts/jQuery.js"></script>
+    <script src="vendor/scripts/handlebars.js"></script>
+    <script src="vendor/scripts/page.js"></script>
     <script src="scripts/project.js"></script>
     <script src="scripts/projectView.js"></script>
-    <script>
-      Project.fetchAllProjects(projectView.initializeIndex);
-    </script>
+    <script src="scripts/homeController.js"></script>
+    <script src="scripts/projectController.js"></script>
+    <script src="scripts/aboutController.js"></script>
+    <script src="scripts/routes.js"></script>
   </body>
 </html>
