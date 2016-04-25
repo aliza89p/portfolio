@@ -25,21 +25,12 @@
     });
   };
 
-  projectView.handleNavBar = function(){
-    $('.nav-items').on('click', '.page', function(){
-      $('.page-content').hide();
-      $('#' + $(this).data('content')).show();
-    });
-    $('.nav-items .page:first').click();
-  };
-
-  projectView.initializeIndex = function(){
+  projectView.initializeProjects = function(){
     Project.all.forEach(function(a){
       $('#projects').append(a.toHtml());
     });
     projectView.populateFilter();
     projectView.handleCategoryFilter();
-    projectView.handleNavBar();
   };
 
   module.projectView = projectView;
