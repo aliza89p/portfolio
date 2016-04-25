@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Poiret+One|Forum|Roboto|Pacifico|Baumans);
 
+/*html {
+  background-image: url("../../img/whiteboard.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}*/
 a{
   text-decoration: none;
 }
@@ -11,7 +16,6 @@ li{
 body {
   font-family: 'Forum', cursive;
   font-size: 20px;
-  background-image: url("../../img/whiteboard.jpg");
   color: black;
 }
 
@@ -99,7 +103,7 @@ footer a{
   padding: 2px;
 }
 
-@media (min-width: 640px){
+@media (min-width: 670px){
   .header-inner ul a{
     font-size: 18px;
   }
