@@ -1,8 +1,8 @@
 (function(module){
   var projectView = {};
 
-  projectView.populateFilter = function() {
-    $('article').each(function() {
+  projectView.fillUpCategoryFilter = function() {
+    $('.projects').each(function() {
       if (!$(this).hasClass('project-template')) {
         var val = $(this).attr('data-category');
         var optionTag = '<option value="' + val + '">' + val + '</option>';
@@ -25,21 +25,12 @@
     });
   };
 
-  projectView.handleNavBar = function(){
-    $('.nav-items').on('click', '.page', function(){
-      $('.page-content').hide();
-      $('#' + $(this).data('content')).show();
-    });
-    $('.nav-items .page:first').click();
-  };
-
-  projectView.initializeIndex = function(){
+  projectView.initializeProjects = function(){
     Project.all.forEach(function(a){
       $('#projects').append(a.toHtml());
     });
-    projectView.populateFilter();
+    projectView.fillUpCategoryFilter();
     projectView.handleCategoryFilter();
-    projectView.handleNavBar();
   };
 
   module.projectView = projectView;

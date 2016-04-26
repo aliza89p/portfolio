@@ -14,3 +14,4 @@
 - jQuery: https://jquery.com/  
 - IcoMoon: https://icomoon.io/  
 - Normalize.css: https://necolas.github.io/normalize.css/  
+- Page.js: https://visionmedia.github.io/page.js/  

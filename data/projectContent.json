@@ -1,7 +1,7 @@
 [
   {
     "title": "Welcome to Seattle",
-    "category": "code-project",
+    "category": "Code Fellows Projects",
     "id": "welcome-to-seattle",
     "numericalDate": "2016-04-08",
     "writtenDate": "April 8th, 2016",
@@ -11,7 +11,7 @@
   },
   {
     "title": "App-a-thon",
-    "category": "event",
+    "category": "Hackathons",
     "id": "app-a-thon",
     "numericalDate": "2015-11-07",
     "writtenDate": "November 7th, 2015",

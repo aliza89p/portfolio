@@ -22,7 +22,7 @@
   margin-left: 20px;
 }
 
-@media (min-width: 640px){
+@media (min-width: 670px){
   .header-inner ul{
     padding: 10px;
     display: inline-block;
