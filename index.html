@@ -24,6 +24,11 @@
         </div>
       </article>
     </script>
+    <script class="repo-template" type="text/x-handlebars-template">
+      <li>
+        <a href="{{html_url}}" target="_blank"><li>{{name}}</li></a>
+      </li>
+    </script>
   </head>
   <body>
     <header class="header-container">
@@ -111,6 +116,11 @@
                 <li>SQL</li>
               </ul>
             </div>
+            <div class="github-stats">
+              <h2>Github Repositories:</h2>
+              <ul class="github-repos">
+              </ul>
+            </div>
           </div>
         </article>
         <div class="clearfix"></div>
@@ -127,11 +137,14 @@
     <script src="vendor/scripts/jQuery.js"></script>
     <script src="vendor/scripts/handlebars.js"></script>
     <script src="vendor/scripts/page.js"></script>
-    <script src="scripts/project.js"></script>
-    <script src="scripts/projectView.js"></script>
-    <script src="scripts/homeController.js"></script>
-    <script src="scripts/projectController.js"></script>
-    <script src="scripts/aboutController.js"></script>
+    <script src="scripts/githubToken.js"></script>
+    <script src="scripts/model/project.js"></script>
+    <script src="scripts/model/repo.js"></script>
+    <script src="scripts/view/projectView.js"></script>
+    <script src="scripts/view/repoView.js"></script>
+    <script src="scripts/controller/homeController.js"></script>
+    <script src="scripts/controller/projectController.js"></script>
+    <script src="scripts/controller/aboutController.js"></script>
     <script src="scripts/routes.js"></script>
   </body>
 </html>

@@ -26,9 +26,11 @@
   };
 
   projectView.initializeProjects = function(){
-    Project.all.forEach(function(a){
-      $('#projects').append(a.toHtml());
-    });
+    if($('#projects section').length ===0){
+      Project.all.forEach(function(a){
+        $('#projects').append(a.toHtml());
+      });
+    };
     projectView.fillUpCategoryFilter();
     projectView.handleCategoryFilter();
   };

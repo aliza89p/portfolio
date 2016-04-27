@@ -28,8 +28,9 @@ main h1{
   font-weight: bolder;
 }
 
-main a{
-  color: blue;
+main p a, main li a{
+  color: #005f7f;
+  font-weight: bold;
 }
 
 .aliza-title h2{
