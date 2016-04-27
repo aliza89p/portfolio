@@ -14,7 +14,10 @@
 footer a:hover{
   color: black;
 }
-
+main a:hover{
+  color: orange;
+  font-weight: bold;
+}
 #category-filter:hover{
   color: white;
 }
