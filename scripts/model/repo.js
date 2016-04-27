@@ -6,18 +6,13 @@
   repos.all = [];
 
   repos.requestRepos = function(callback) {
-
-    $.ajax({
-      url: 'https://api.github.com/users/aliza89p/repos' +
-      '?per_page=10' +
-      '&sort=updated',
-      type: 'GET',
-      headers: {'Authorization': 'token ' + githubToken},
-      success: function(data) {
-        repos.all = data;
-        callback();
-      }
-    });
+    $.get('/github/users/codefellows/repos' +
+          '?per_page=10' +
+          '&sort=updated')
+    .done(function(data) {
+      repos.all = data;
+    })
+  .done(callback);
   };
 
   // repos.all.map(function(repo) {
