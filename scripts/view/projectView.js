@@ -16,7 +16,7 @@
   projectView.handleCategoryFilter = function() {
     $('#category-filter').on('change', function() {
       if ($(this).val()) {
-        $('article').hide();
+        $('#projects article').hide();
         $('article[data-category="' + $(this).val() + '"]').fadeIn();
       } else {
         $('article').fadeIn();
@@ -26,7 +26,7 @@
   };
 
   projectView.initializeProjects = function(){
-    if($('#projects section').length ===0){
+    if($('#projects section').length === 0){
       Project.all.forEach(function(a){
         $('#projects').append(a.toHtml());
       });
