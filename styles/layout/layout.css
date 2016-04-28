@@ -88,8 +88,9 @@
   }
   .skills-container {
     margin-left: 50px;
-
-  #category-filter {
+  }
+  
+  #category-filter{
     width: 300px;
   }
   .projectImg {
