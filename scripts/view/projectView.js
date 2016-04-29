@@ -18,9 +18,11 @@
       if ($(this).val()) {
         $('#projects article').hide();
         $('article[data-category="' + $(this).val() + '"]').fadeIn();
+        page('projects/' + $(this).val().replace(/\W+/g, '+'));
       } else {
         $('article').fadeIn();
         $('article.template').hide();
+        page('projects/');
       }
     });
   };
