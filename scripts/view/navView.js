@@ -1,7 +1,9 @@
-$('.icon-menu').click(function(){
-  $('.nav-items').show();
-});
-
-$('.nav-items').click(function(){
-  $('.nav-items').hide();
+$(function() {
+  $('.icon-menu').on('click', function(){
+    if($('.nav-items').css('display') === 'none'){
+      $('.nav-items').show();
+    }else{
+      $('.nav-items').hide();
+    }
+  });
 });
