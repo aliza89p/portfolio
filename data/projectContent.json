@@ -1,5 +1,15 @@
 [
   {
+    "title": "Project Inoculation",
+    "category": "Code Fellows Projects",
+    "id": "project-inoculation",
+    "numericalDate": "2016-05-06",
+    "writtenDate": "May 3rd, 2016",
+    "imgUrl": "img/projectInoculation.png",
+    "about": "<p>As the final project for the 301 level software developement course at Code Fellows, I worked with a team to create the \"Project  Inoculation\" app. This tool allows users to search for K-12 schools in Washington and discover their vaccine excemption and completion rates.</p>",
+    "infoUrl": "https://project-inoculation.herokuapp.com/"
+  },
+  {
     "title": "Welcome to Seattle",
     "category": "Code Fellows Projects",
     "id": "welcome-to-seattle",
