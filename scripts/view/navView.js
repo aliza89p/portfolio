@@ -6,4 +6,9 @@ $(function() {
       $('.nav-items').hide();
     }
   });
+  $(window).resize(function(){
+    if ($('html').width() > 850){
+      $('.nav-items').show();
+    };
+  });
 });

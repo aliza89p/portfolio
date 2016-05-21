@@ -5,7 +5,7 @@
 
   repos.requestRepos = function(callback) {
     $.get('/github/users/aliza89p/repos' +
-          '?per_page=10' +
+          '?per_page=500' +
           '&sort=updated')
     .done(function(data) {
       repos.all = data;

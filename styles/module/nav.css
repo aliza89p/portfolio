@@ -1,7 +1,5 @@
 .header-inner ul{
-  width: 100%;
   display: none;
-  margin-top: 20px;
   padding-left: 0;
   z-index: 1;
 }
@@ -22,9 +20,11 @@
   margin-left: 20px;
 }
 
-@media (min-width: 670px){
+@media (min-width: 850px){
   .header-inner ul{
     padding: 10px;
+    padding-top: 30px;
+    margin-top: 0;
     display: inline-block;
   }
 

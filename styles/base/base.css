@@ -1,9 +1,13 @@
 html {
   height: 100%;
+  background-color: grey;
 }
 body {
+  background-color: white;
+  width: 80%;
   position: relative;
   min-height: 100%;
+  margin: 0 auto;
 }
 
 img{
