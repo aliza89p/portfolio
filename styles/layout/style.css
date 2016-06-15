@@ -1,11 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Poiret+One|Forum|Roboto|Pacifico|Baumans);
 
-/*html {
+html {
   background-image: url("/../../img/background-image.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-}*/
+}
 
 a{
   text-decoration: none;
@@ -79,20 +79,16 @@ main p a, main li a{
   color: skyblue;
 }
 
-#category-filter{
-  background: black;
-  color: skyblue;
-  font-family: courier;
-  font-size: 18px;
-  z-index: 0;
+.aliza-photo img{
+  border: 1px solid black;
 }
 
-.aliza-photo img{
-  border-radius: 60px;
+.projectImg {
+  border: 1px solid black;
 }
 
 footer p{
-  font-size: 11px;
+  font-size: 12px;
 }
 
 footer a{
