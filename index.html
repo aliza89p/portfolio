@@ -44,6 +44,7 @@
           <li class="page tab" data-content="home"><a href="/"><div class="icon icon-home"></div>home();</a></li>
           <li class="page tab" data-content="projects"><a href="/projects"><div class="icon icon-file-text"></div>projects();</a></li>
           <li class="page tab" data-content="about"><a href="/about"><div class="icon icon-user"></div>about();</a></li>
+          <li class="page tab" data-content="about"><a href="/contact"><div class="icon icon-envelop"></div>contact();</a></li>
         </ul>
       </div>
     </header>
@@ -62,9 +63,9 @@
         </article>
       </section>
       <section id="projects" class="page-content">
-        <select id="category-filter">
+        <!-- <select id="category-filter">
           <option value="" class="categories">filterByCategory();</option>
-        </select>
+        </select> -->
       </section>
       <section id="about" class="page-content">
         <header>
@@ -97,7 +98,7 @@
                 <li>Trello</li>
               </ul>
             </div>
-            <div class="font-end">
+            <div class="front-end">
               <h2>Front-End:</h2>
               <ul>
                 <li>HTML5</li>
@@ -118,15 +119,27 @@
                 <li>SQL</li>
               </ul>
             </div>
-            <div class="github-stats">
+            <!-- <div class="github-stats">
               <h2>Github Repositories:</h2>
               <ul class="github-repos">
               </ul>
-            </div>
+            </div> -->
           </div>
         </article>
         <div class="clearfix"></div>
       </section>
+      <section id="contact" class="page-content">
+        <header>
+          <h1>Contact Information</h1>
+        </header>
+        <h2>Send me an email:</h2>
+        <a class="icon-envelop" href="mailto:apilisuk@gmail.com"> apilisuk@gmail.com</a>
+        <h2>Connect on LinkedIn:</h2>
+        <p><a href="https://www.linkedin.com/pub/aliza-pilisuk/b2/972/480"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View my profile">
+        </a></p>
+        <h2>Check out my GitHub<h2>
+        <iframe src="https://ghbtns.com/github-btn.html?user=aliza89p&type=follow&count=false&size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe>
+
     </main>
     <footer class="clearfix">
       <ul>
@@ -147,6 +160,7 @@
     <script src="/scripts/controller/homeController.js"></script>
     <script src="/scripts/controller/projectController.js"></script>
     <script src="/scripts/controller/aboutController.js"></script>
+    <script src="/scripts/controller/contactController.js"></script>
     <script src="/scripts/routes.js"></script>
   </body>
 </html>
