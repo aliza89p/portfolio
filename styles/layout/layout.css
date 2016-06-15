@@ -57,9 +57,25 @@
   text-align: center;
 }
 
+.skills, .tools, .front-end, .back-end{
+  width: 250px;
+  height: 250px;
+}
 .skills-container {
-  margin: 0 auto;
-  margin-bottom: 50px;
+  display: -webkit-flex;
+     display: flex;
+     -webkit-align-items: center;
+     align-items: center;
+     -webkit-justify-content: center;
+     justify-content: center;
+     -webkit-flex-direction: row;
+     flex-direction: row;
+     -webkit-flex-wrap: wrap;
+     flex-wrap: wrap;
+     -webkit-flex-flow: row wrap;
+     flex-flow: row wrap;
+     -webkit-align-content: flex-end;
+     align-content: flex-end;
 }
 .skills-container h2{
   text-align: center;
@@ -85,9 +101,9 @@
   .aliza-title{
     z-index: 0;
   }
-  .skills-container {
+  /*.skills-container {
     margin-left: 50px;
-  }
+  }*/
 
   #category-filter{
     width: 300px;

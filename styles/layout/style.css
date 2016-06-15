@@ -1,11 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Poiret+One|Forum|Roboto|Pacifico|Baumans);
 
-html {
+/*html {
   background-image: url("/../../img/background-image.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-}
+}*/
 
 a{
   text-decoration: none;
