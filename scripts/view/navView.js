@@ -6,6 +6,13 @@ $(function() {
       $('.nav-items').hide();
     }
   });
+
+  $('.nav-items').on('click', function() {
+    if ($('html').width() < 850){
+      $('.nav-items').hide();
+    }
+  });
+
   $(window).resize(function(){
     if ($('html').width() > 850){
       $('.nav-items').show();
