@@ -21,3 +21,7 @@ main p a:hover, main li a:hover{
 #category-filter:hover{
   color: white;
 }
+
+.email:hover {
+  background-color: #e6e6e6;
+}

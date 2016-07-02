@@ -38,7 +38,11 @@
   margin-top: -20px;
   text-align: right;
 }
-
+.aliza-photo{
+  position: relative;
+  text-align: center;
+  padding: 10px;
+}
 .page-content{
   display: block;
   width: 90%;
@@ -50,21 +54,17 @@
   width: 90%;
   margin: 0 auto;
 }
+
 .welcome {
   text-align: center;
-  width: 80%;
   margin: 0 auto;
   font-size: 1.5rem;
 }
+
 .check-it-out{
   width: 100%;
   padding: 5px 0;
   text-align: center;
-}
-
-.skills, .tools, .front-end, .back-end{
-  width: 250px;
-  height: 250px;
 }
 
 .skills-container h2{
@@ -75,17 +75,15 @@
   clear: both;
 }
 
-#category-filter {
-  width: 100%;
-  padding: 5px;
-}
-
 @media (min-width: 670px){
   .aliza-title{
     z-index: 0;
   }
-
-  .skills-container {
+  .skills, .tools, .front-end, .back-end{
+    width: 350px;
+    height: 270px;
+  }
+  .skills-container-1, .skills-container-2{
     display: -webkit-flex;
        display: flex;
        -webkit-align-items: center;
@@ -102,15 +100,11 @@
        align-content: flex-end;
   }
 
-  #category-filter{
-    width: 300px;
-  }
   .projectImg {
     position:relative;
     float: left;
     margin: 20px;
   }
-
   .aliza-photo{
     position: relative;
     float: left;
@@ -130,5 +124,10 @@
 
   .clearfix{
     clear:both;
+  }
+
+  .welcome {
+    text-align: center;
+    width: 80%;
   }
 }

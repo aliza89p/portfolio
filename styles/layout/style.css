@@ -37,6 +37,7 @@ main p a, main li a{
 .welcome-header{
   font-size: 5rem;
   margin: 0;
+  margin-top: 15px;
 }
 .aliza-title h2{
     font-size: 22px;
@@ -85,7 +86,7 @@ main p a, main li a{
 }
 
 .aliza-photo img{
-  /*border: 2px solid white;*/
+  border: 1px solid black;
 }
 
 .projectImg {
@@ -100,6 +101,14 @@ footer a{
   font-size: 25px;
 }
 
+.email {
+  background: #d3d3d3;
+  text-decoration: none;
+  color: black;
+  padding: 7px;
+  border-radius: 7px;
+
+}
 .logo {
   font-family: courier;
   padding: 2px;
