@@ -50,7 +50,12 @@
   width: 90%;
   margin: 0 auto;
 }
-
+.welcome {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
 .check-it-out{
   width: 100%;
   padding: 5px 0;
