@@ -21,6 +21,7 @@
 }
 
 @media (min-width: 850px){
+
   .header-inner ul{
     padding: 10px;
     padding-top: 30px;
@@ -36,6 +37,9 @@
   .icon-menu {
     display: none;
   }
+
   .icon{
     float: left;
   }
+
+}
