@@ -29,20 +29,24 @@
   margin-top: 8px;
   width: 140px;
 }
+
 .aliza-title h2{
   margin-top: 10px;
   text-align: right;
   padding: 0;
 }
+
 .aliza-title p{
   margin-top: -20px;
   text-align: right;
 }
+
 .aliza-photo{
   position: relative;
   text-align: center;
   padding: 10px;
 }
+
 .page-content{
   display: block;
   width: 90%;
@@ -76,6 +80,7 @@
 }
 
 @media (min-width: 670px){
+
   .aliza-title{
     z-index: 0;
   }
@@ -96,17 +101,21 @@
     float: left;
     margin: 20px;
   }
+
   .aliza-photo{
     position: relative;
     float: left;
     padding: 10px;
   }
+
   .about-projects {
     margin-top: 5%;
   }
+
   .bio p{
     margin-top: 15px;
   }
+
   .welcome p{
     padding-top: 50px;
   }

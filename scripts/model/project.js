@@ -48,17 +48,5 @@
     }
   };
 
-  Project.allCategories = function() {
-    return Project.all.map(function(project) {
-      return project.class;
-    })
-    .reduce(function(prevCategory, currentCategory){
-      if(prevCategory.indexOf(currentCategory) === -1){
-        prevCategory.push(currentCategory);
-      }
-      return prevCategory;
-    }, [] );
-  };
-
   module.Project = Project;
 })(window);
