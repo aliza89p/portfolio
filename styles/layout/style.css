@@ -63,7 +63,8 @@ main p a, main li a{
   font-family: courier;
   background-color: skyblue;
   color: #382938;
-  font-size: 40px;
+  font-size: 37px;
+  border: 1px solid #382938;
 }
 .header-inner ul{
   background-color: white;
@@ -76,15 +77,21 @@ main p a, main li a{
 }
 
 .check-it-out{
-  background: #323232;
+  background-color: rgba(50, 50, 50, .8);
   border-radius: 3px;
   font-family: courier;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, .5);
+  width: 95%;
+  margin: 0 auto;
 }
 
 .check-it-out a{
+  color: white;
+}
+.source-code{
   color: skyblue;
 }
-
 .aliza-photo img{
   border: 1px solid black;
 }
@@ -107,6 +114,7 @@ footer a{
   color: black;
   padding: 7px;
   border-radius: 7px;
+  font-size: 17px;
 
 }
 .logo {
