@@ -50,6 +50,7 @@ main p a, main li a{
 
 .icon-menu {
   font-size: 30px;
+  color: #382938;
 }
 
 .header-inner{
@@ -93,13 +94,20 @@ main p a, main li a{
   color: skyblue;
 }
 .aliza-photo img{
-  border: 1px solid black;
+  border: 1px solid #382938;
 }
 
 .projectImg {
-  border: 1px solid black;
+  border: 1px solid #382938;
 }
-
+.skills-container h2 {
+  font-size: 28px;
+}
+.skills-container li {
+  font-size: 17px;
+  list-style-type: circle;
+  padding: 2px;
+}
 footer p{
   font-size: 12px;
 }
@@ -108,7 +116,7 @@ footer a{
   font-size: 25px;
 }
 
-.email {
+.contact-link {
   background: #d3d3d3;
   text-decoration: none;
   color: black;
