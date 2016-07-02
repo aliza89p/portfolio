@@ -18,10 +18,8 @@ main p a:hover, main li a:hover, .source-code:hover{
   font-weight: bold;
   text-decoration: underline;
 }
-#category-filter:hover{
-  color: white;
-}
 
-.email:hover {
+.contact-link:hover {
   background-color: #e6e6e6;
+  border: 2px solid skyblue;
 }

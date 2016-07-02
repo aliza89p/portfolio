@@ -94,11 +94,11 @@ main p a, main li a{
   color: skyblue;
 }
 .aliza-photo img{
-  border: 1px solid black;
+  border: 1px solid #382938;
 }
 
 .projectImg {
-  border: 1px solid black;
+  border: 1px solid #382938;
 }
 .skills-container h2 {
   font-size: 28px;
