@@ -79,25 +79,16 @@
   .aliza-title{
     z-index: 0;
   }
-  .skills, .tools, .front-end, .back-end{
-    width: 350px;
-    height: 270px;
+
+  .skills-container {
+    display: flex;
+    align-items: flex-start;
   }
-  .skills-container-1, .skills-container-2{
-    display: -webkit-flex;
-       display: flex;
-       -webkit-align-items: center;
-       align-items: center;
-       -webkit-justify-content: center;
-       justify-content: center;
-       -webkit-flex-direction: row;
-       flex-direction: row;
-       -webkit-flex-wrap: wrap;
-       flex-wrap: wrap;
-       -webkit-flex-flow: row wrap;
-       flex-flow: row wrap;
-       -webkit-align-content: flex-end;
-       align-content: flex-end;
+
+  .tools, .skills, .front-end, .back-end{
+    min-height: 360px;
+    width: 250px;
+    margin-left: 10px;
   }
 
   .projectImg {
@@ -113,7 +104,9 @@
   .about-projects {
     margin-top: 5%;
   }
-
+  .bio p{
+    margin-top: 15px;
+  }
   .welcome p{
     padding-top: 50px;
   }
@@ -130,4 +123,5 @@
     text-align: center;
     width: 80%;
   }
+
 }
