@@ -1,20 +1,27 @@
 .check-it-out:hover{
-  transform: scale(1.1);
   background: #323232;
 }
 
-.nav-items a:hover{
-  color: white;
+.check-it-out a:hover{
+  font-size: 21px;
+}
+
+.header-inner ul a:hover{
+  color: skyblue;
 }
 
 footer a:hover{
-  color: black;
+  color: skyblue;
 }
 main p a:hover, main li a:hover{
-  color: grey;
+  color: #bedff6;
   font-weight: bold;
   text-decoration: underline;
 }
 #category-filter:hover{
   color: white;
+}
+
+.email:hover {
+  background-color: #e6e6e6;
 }

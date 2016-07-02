@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Poiret+One|Forum|Roboto|Pacifico|Baumans);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Forum|Roboto|Pacifico|Baumans|Special+Elite|Nixie+One);
 
 html {
   background-image: url("/../../img/background-image.jpg");
@@ -16,30 +16,36 @@ li{
 }
 
 body {
-  font-family: 'Forum', cursive;
+  font-family: "Nixie One", cursive;
   font-size: 20px;
-  color: black;
+  color: white;
 }
 
 a {
-  color: #3B3B3B;
+  color: white;
 }
 
 main h1{
   font-size: 2rem;
   font-weight: bolder;
+  font-family: "Special Elite", cursive;
 }
 
 main p a, main li a{
-  color: #005f7f;
-  font-weight: bold;
+  color: skyblue;
 }
-
+.welcome-header{
+  font-size: 5rem;
+  margin: 0;
+  margin-top: 15px;
+}
 .aliza-title h2{
     font-size: 22px;
+    font-family: "Forum", cursive;
 }
 .aliza-title p{
   font-size: 15px;
+  font-family: "Forum", cursive;
 }
 
 .icon-menu {
@@ -47,8 +53,8 @@ main p a, main li a{
 }
 
 .header-inner{
-  background: black;
-  color: white;
+  background: white;
+  color: rgb(110,80,110);
   z-index: 1;
 }
 
@@ -56,21 +62,21 @@ main p a, main li a{
   border-radius: 8px;
   font-family: courier;
   background-color: skyblue;
-  color: black;
+  color: #382938;
   font-size: 40px;
 }
 .header-inner ul{
-  background-color: black;
+  background-color: white;
 }
 
 .header-inner ul a{
-  color: skyblue;
+  color: rgb(110,80,110);
   font-size: 26px;
-  font-family: courier;
+  font-family: 'Special Elite', cursive;
 }
 
 .check-it-out{
-  background: black;
+  background: #323232;
   border-radius: 3px;
   font-family: courier;
 }
@@ -95,15 +101,26 @@ footer a{
   font-size: 25px;
 }
 
+.email {
+  background: #d3d3d3;
+  text-decoration: none;
+  color: black;
+  padding: 7px;
+  border-radius: 7px;
+
+}
 .logo {
   font-family: courier;
-  border: 1px solid black;
-  border-radius: 2px;
   padding: 2px;
 }
 
 @media (min-width: 670px){
   .header-inner ul a{
     font-size: 18px;
+  }
+  .welcome-header{
+    font-size: 7rem;
+    margin-bottom: -20px;
+    margin-top: 25px;
   }
 }
