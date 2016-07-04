@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Forum|Special+Elite|Nixie+One);
+@import url(https://fonts.googleapis.com/css?family=Forum|Nixie+One|Cutive);
 
 html {
   background-image: url("/../../img/background-image.jpg");
@@ -7,7 +7,8 @@ html {
   background-size: cover;
 }
 
-a{
+a {
+  color: #bedff6;
   text-decoration: none;
 }
 
@@ -16,23 +17,14 @@ li{
 }
 
 body {
-  font-family: "Nixie One", cursive;
-  font-size: 20px;
-  color: white;
-}
-
-a {
+  font-family: 'Nixie One', cursive;
+  font-size: 1.25rem;
   color: white;
 }
 
 main h1{
   font-size: 2rem;
   font-weight: bolder;
-  font-family: "Special Elite", cursive;
-}
-
-main p a, main li a{
-  color: skyblue;
 }
 
 .welcome-header{
@@ -42,18 +34,18 @@ main p a, main li a{
 }
 
 .aliza-title h2{
-    font-size: 22px;
+    font-size: 1.375rem;
     font-family: "Forum", cursive;
 }
 
 .aliza-title p{
-  font-size: 15px;
+  font-size: .9375rem;
   font-family: "Forum", cursive;
 }
 
 .icon-menu {
-  font-size: 30px;
-  color: #382938;
+  font-size: 1.875rem;
+  color: #584158;
 }
 
 .header-inner{
@@ -67,7 +59,7 @@ main p a, main li a{
   font-family: courier;
   background-color: skyblue;
   color: #382938;
-  font-size: 37px;
+  font-size: 2.3125rem;
   border: 1px solid #382938;
 }
 
@@ -75,27 +67,18 @@ main p a, main li a{
   background-color: white;
 }
 
-.header-inner ul a{
-  color: rgb(110,80,110);
-  font-size: 26px;
-  font-family: 'Special Elite', cursive;
+.header-inner ul div {
+  margin-right: 4px;
 }
 
-.check-it-out{
-  background-color: rgba(50, 50, 50, .8);
-  border-radius: 3px;
-  font-family: courier;
-  border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, .5);
-  width: 95%;
-  margin: 0 auto;
+.header-inner ul a{
+  color: rgb(110,80,110);
+  font-size: 1.4375rem;
+  font-family: "Cutive", cursive;
 }
 
 .check-it-out a{
-  color: white;
-}
-
-.source-code{
+  font-weight: bold;
   color: skyblue;
 }
 
@@ -108,31 +91,32 @@ main p a, main li a{
 }
 
 .skills-container h2 {
-  font-size: 28px;
+  font-size: 	1.75rem;
 }
 
 .skills-container li {
-  font-size: 17px;
+  font-size: 1.1875rem;
   list-style-type: circle;
   padding: 2px;
 }
 
+.contact-link {
+  font-size: 1.125rem;
+}
+
+.contact-link div{
+  font-size: 1.5625rem;
+  float: left;
+  margin-right: 8px;
+}
+
 footer p{
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 footer a{
-  font-size: 25px;
-}
-
-.contact-link {
-  background: #d3d3d3;
-  text-decoration: none;
-  color: black;
-  padding: 7px;
-  border-radius: 7px;
-  font-size: 17px;
-
+  color: white;
+  font-size: 1.5625rem;
 }
 
 .logo {
@@ -142,14 +126,18 @@ footer a{
 
 @media (min-width: 670px){
 
-  .header-inner ul a{
-    font-size: 18px;
-  }
-
   .welcome-header{
-    font-size: 7rem;
+    font-size: 8.2rem;
     margin-bottom: -20px;
     margin-top: 25px;
+  }
+
+}
+
+@media (min-width: 850px){
+
+  .header-inner ul a{
+    font-size: 1.125rem;
   }
 
 }
