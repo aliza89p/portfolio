@@ -1,3 +1,9 @@
-a:hover, .header-inner ul a:hover {
+a:hover {
+  color: #bedff6;
+  text-decoration: underline;
+}
+
+.header-inner ul a:hover, footer a:hover {
   color: skyblue;
+  text-decoration: none;
 }
