@@ -8,7 +8,8 @@ html {
 }
 
 a {
-  color: #bedff6;
+  color: skyblue;
+  text-shadow: 0 0 0.2rem #382938;
   text-decoration: none;
 }
 
@@ -76,11 +77,7 @@ main h1{
   color: rgb(110,80,110);
   font-size: 1.3rem;
   font-family: "Cutive", cursive;
-}
-
-.check-it-out a{
-  font-weight: bold;
-  color: skyblue;
+  text-shadow: none;
 }
 
 .aliza-photo img{
