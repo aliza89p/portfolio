@@ -1,12 +1,22 @@
 [
   {
+    "title": "Bitmap Transformer",
+    "category": "Code Fellows Projects",
+    "id": "bitmap-transformer",
+    "numericalDate": "2016-07-18",
+    "writtenDate": "July 18th, 2016",
+    "imgUrl": "/img/bitmapTransformer.png",
+    "about": "<p>As a weekend project for the full-stack JavaScript course at Code Fellows, I worked with a teammate to create an NPM install-able bitmap transformer. This package allows users to transform a non-palette bitmap image using simple command line arguments. Bitmaps can be transformed to either greyscale, a red hue, a mirrored image, all black, or inverted.</p><p>Includes: JavaScript, Node, Mocha, Chai, and Gulp</p><p><a href=\"https://github.com/giodamelio/bitmap_transformer\" target=\"_blank\">Source Code</a></p>",
+    "infoUrl": "https://www.npmjs.com/package/bitmap_transformer"
+  },
+  {
     "title": "Project Inoculation",
     "category": "Code Fellows Projects",
     "id": "project-inoculation",
     "numericalDate": "2016-05-06",
     "writtenDate": "May 3rd, 2016",
     "imgUrl": "/img/projectInoculation.png",
-    "about": "<p>As the final project for the 301 level software developement course at Code Fellows, I worked with a team to create the \"Project  Inoculation\" app. This tool allows users to search for K-12 schools in Washington and discover their vaccine excemption and completion rates.</p><p>Includes: HTML5, CSS3, JavaScript, jQuery, Ajax, Page.js, Chart.js, Heroku, Firebase, MVC structure, mobile-first design</p><p><a href=\"https://github.com/aliza89p/team_inoculation\" target=\"_blank\">Source Code</a></p>",
+    "about": "<p>As the final project for the 301 level software developement course at Code Fellows, I worked with a team to create the \"Project  Inoculation\" app. This tool allows users to search for K-12 schools in Washington and discover their vaccine excemption and completion rates.</p><p>Includes: HTML5, CSS3, JavaScript, jQuery, Ajax, Page.js, Chart.js, Heroku, Firebase, MVC structure, mobile-first design</p><p><a href=\"https://github.com/apalm112/team_inoculation\" target=\"_blank\">Source Code</a></p>",
     "infoUrl": "https://project-inoculation.herokuapp.com/"
   },
   {
@@ -16,7 +26,7 @@
     "numericalDate": "2016-04-08",
     "writtenDate": "April 8th, 2016",
     "imgUrl": "/img/welcomeToSeattle.png",
-    "about": "<p>As the final project for the 201 level web developement course at Code Fellows, I worked with a team to create the \"Welcome to Seattle\" website. This tool is designed to help Seattle newcomers find the best neighborhood to meet thier needs.</p><p>Includes: HTML5, CSS3, JavaScript, and Local Storage</p><p><a href=\"https://github.com/aliza89p/welcome-to-seattle\" target=\"_blank\">Source Code</a></p>",
+    "about": "<p>As the final project for the 201 level web developement course at Code Fellows, I worked with a team to create the \"Welcome to Seattle\" website. This tool is designed to help Seattle newcomers find the best neighborhood to meet thier needs.</p><p>Includes: HTML5, CSS3, JavaScript, and Local Storage</p><p><a href=\"https://github.com/PeterBreen/welcome-to-seattle\" target=\"_blank\">Source Code</a></p>",
     "infoUrl": "http://peterbreen.github.io/welcome-to-seattle/"
   },
   {
