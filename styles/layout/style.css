@@ -19,13 +19,19 @@ li{
 
 body {
   font-family: 'Nixie One', cursive;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   color: white;
 }
 
 main h1{
+  font-size: 3rem;
+  margin: 0;
+}
+
+main h2 {
   font-size: 2rem;
-  font-weight: bolder;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .welcome-header{
@@ -93,7 +99,7 @@ main h1{
 }
 
 .skills-container li {
-  font-size: 1.1875rem;
+  font-size: 1.15rem;
   list-style-type: circle;
   padding: 2px;
 }
@@ -133,6 +139,9 @@ footer a{
 }
 
 @media (min-width: 850px){
+  main h1{
+    font-size: 4rem;
+  }
 
   .header-inner ul a{
     font-size: 1.125rem;

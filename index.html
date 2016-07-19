@@ -13,12 +13,12 @@
     <link rel="stylesheet" href="/styles/state/hover.css">
     <script class="project-template" type="text/x-handlebars-template">
       <article class="projects" data-category="{{category}}">
-        <h1 class="clearfix">{{title}}</h1>
+        <h2 class="clearfix">{{title}}</h2>
         <p class="date">{{writtenDate}}</p>
         <img src="{{imgUrl}}" class="projectImg">
         <section class="about-projects">
           {{{about}}}
-          <a href="{{infoUrl}}" target="_blank">Check it out</a>
+          <a href="{{infoUrl}}" target="_blank" class="check-it-out">Check it out</a>
         </section>
         <div class="clearfix"></div>
       </article>
@@ -54,6 +54,9 @@
         </article>
       </section>
       <section id="projects" class="page-content">
+        <header>
+          <h1>Projects</h1>
+        </header>
       </section>
       <section id="about" class="page-content">
         <header>
@@ -119,7 +122,7 @@
       </section>
       <section id="contact" class="page-content">
         <header>
-          <h1>Contact Information</h1>
+          <h1>Contact Info</h1>
         </header>
         <p>Send me an Email:</p>
         <a class="contact-link" href="mailto:apilisuk@gmail.com"><div class="icon-envelop"></div>apilisuk@gmail.com</a>

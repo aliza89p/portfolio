@@ -64,10 +64,9 @@
   margin: 0 auto;
 }
 
-.check-it-out{
-  width: 100%;
-  padding: 5px 0;
-  text-align: center;
+.date{
+  font-size: 1rem;
+  margin: 0 0 5px 0;
 }
 
 .skills-container h2{
@@ -98,7 +97,7 @@
   .projectImg {
     position:relative;
     float: left;
-    margin: 20px;
+    margin: 5px 20px 20px 0px;
   }
 
   .aliza-photo{
@@ -107,20 +106,12 @@
     padding: 10px;
   }
 
-  .about-projects {
-    margin-top: 4%;
-  }
-
   .bio p{
     margin-top: 15px;
   }
 
   .welcome p{
     padding-top: 50px;
-  }
-
-  .date{
-    margin-left: 6px;
   }
 
   .clearfix{
