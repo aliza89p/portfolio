@@ -24,6 +24,11 @@ main {
 
 main h1{
   text-align: center;
+  margin: 0;
+}
+
+main h2 {
+  margin-bottom: 10px;
 }
 
 footer {

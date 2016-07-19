@@ -25,24 +25,20 @@ body {
 
 main h1{
   font-size: 3rem;
-  margin: 0;
 }
 
 main h2 {
   font-size: 2rem;
   text-align: center;
-  margin-top: 50px;
 }
 
 .welcome-header{
   font-size: 3.5rem;
-  margin: 0;
-  margin-top: 15px;
 }
 
 .aliza-title h2{
-    font-size: 1.375rem;
-    font-family: "Forum", cursive;
+  font-size: 1.375rem;
+  font-family: "Forum", cursive;
 }
 
 .aliza-title p{
@@ -58,7 +54,6 @@ main h2 {
 .header-inner{
   background: white;
   color: rgb(110,80,110);
-  z-index: 1;
 }
 
 .header-inner h1 {
@@ -72,11 +67,6 @@ main h2 {
 
 .header-inner ul{
   background-color: white;
-  padding-top: 20px;
-}
-
-.header-inner ul div {
-  margin-right: 4px;
 }
 
 .header-inner ul a{
@@ -96,12 +86,12 @@ main h2 {
 
 .skills-container h2 {
   font-size: 	1.75rem;
+  text-align: center;
 }
 
 .skills-container li {
   font-size: 1.15rem;
   list-style-type: circle;
-  padding: 2px;
 }
 
 .contact-link {
@@ -110,8 +100,6 @@ main h2 {
 
 .contact-link div{
   font-size: 1.5625rem;
-  float: left;
-  margin-right: 8px;
 }
 
 footer p{
@@ -125,15 +113,12 @@ footer a{
 
 .logo {
   font-family: courier;
-  padding: 2px;
 }
 
 @media (min-width: 670px){
 
   .welcome-header{
     font-size: 8rem;
-    margin-bottom: -20px;
-    margin-top: 25px;
   }
 
 }
