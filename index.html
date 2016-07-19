@@ -13,12 +13,12 @@
     <link rel="stylesheet" href="/styles/state/hover.css">
     <script class="project-template" type="text/x-handlebars-template">
       <article class="projects" data-category="{{category}}">
-        <h1 class="clearfix">{{title}}</h1>
+        <h2 class="clearfix">{{title}}</h2>
         <p class="date">{{writtenDate}}</p>
         <img src="{{imgUrl}}" class="projectImg">
         <section class="about-projects">
           {{{about}}}
-          <a href="{{infoUrl}}" target="_blank">Check it out</a>
+          <div class="check-it-out"><a href="{{infoUrl}}" target="_blank">Check it out</a></div>
         </section>
         <div class="clearfix"></div>
       </article>
@@ -54,6 +54,9 @@
         </article>
       </section>
       <section id="projects" class="page-content">
+        <header>
+          <h1>Projects</h1>
+        </header>
       </section>
       <section id="about" class="page-content">
         <header>
@@ -119,14 +122,14 @@
       </section>
       <section id="contact" class="page-content">
         <header>
-          <h1>Contact Information</h1>
+          <h1>Contact Info</h1>
         </header>
         <p>Send me an Email:</p>
         <a class="contact-link" href="mailto:apilisuk@gmail.com"><div class="icon-envelop"></div>apilisuk@gmail.com</a>
         <p>Check out my GitHub</p>
-        <a class="contact-link" href="https://github.com/aliza89p"><div class="icon-github"></div>aliza89p</a>
+        <a class="contact-link" href="https://github.com/aliza89p" target="_blank"><div class="icon-github"></div>aliza89p</a>
         <p>Connect on LinkedIn:</p>
-        <a class="contact-link" href="https://www.linkedin.com/in/alizapilisuk"><div class="icon-linkedin"></div>alizapilisuk</a>
+        <a class="contact-link" href="https://www.linkedin.com/in/alizapilisuk" target="_blank"><div class="icon-linkedin"></div>alizapilisuk</a>
       </section>
     </main>
     <footer class="clearfix">

@@ -9,6 +9,7 @@
   max-width: 100%;
   margin: 0 auto;
   height: 80px;
+  z-index: 1;
 }
 
 .header-inner h1 {
@@ -20,6 +21,10 @@
   padding: 0;
   margin: 0;
   margin-top: 15px;
+}
+
+.header-inner ul {
+  padding-top: 20px;
 }
 
 .aliza-title{
@@ -41,10 +46,18 @@
   text-align: right;
 }
 
+.logo {
+  padding: 2px;
+}
+
 .aliza-photo{
   position: relative;
   text-align: center;
   padding: 10px;
+}
+
+.header-inner ul div {
+  margin-right: 4px;
 }
 
 .page-content{
@@ -52,6 +65,10 @@
   width: 90%;
   margin: 0 auto;
   margin-bottom: 30px;
+}
+
+.check-it-out {
+  margin-bottom: 45px;
 }
 
 .bio p{
@@ -64,14 +81,23 @@
   margin: 0 auto;
 }
 
-.check-it-out{
-  width: 100%;
-  padding: 5px 0;
-  text-align: center;
+.welcome-header {
+  margin: 0;
+  margin-top: 15px;
 }
 
-.skills-container h2{
-  text-align: center;
+.date{
+  font-size: 1rem;
+  margin: 0 0 5px 0;
+}
+
+.contact-link div{
+  float: left;
+  margin-right: 8px;
+}
+
+.skills-container li {
+  padding: 2px;
 }
 
 .clearfix {
@@ -79,6 +105,12 @@
 }
 
 @media (min-width: 670px){
+
+  .welcome-header{
+    font-size: 8rem;
+    margin-bottom: -20px;
+    margin-top: 25px;
+  }
 
   .aliza-title{
     z-index: 0;
@@ -98,7 +130,7 @@
   .projectImg {
     position:relative;
     float: left;
-    margin: 20px;
+    margin: 5px 20px 20px 0px;
   }
 
   .aliza-photo{
@@ -107,20 +139,12 @@
     padding: 10px;
   }
 
-  .about-projects {
-    margin-top: 4%;
-  }
-
   .bio p{
     margin-top: 15px;
   }
 
   .welcome p{
     padding-top: 50px;
-  }
-
-  .date{
-    margin-left: 6px;
   }
 
   .clearfix{
