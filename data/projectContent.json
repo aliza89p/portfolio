@@ -6,7 +6,7 @@
     "numericalDate": "2016-07-18",
     "writtenDate": "July 18th, 2016",
     "imgUrl": "/img/bitmapTransformer.png",
-    "about": "<p>As a weekend project for the full-stack JavaScript course at Code Fellows, I worked with a teammate to create an NPM install-able bitmap transformer. This package allows users to transform a non-palette bitmap image using simple command line arguments. Bitmaps can be transformed to either greyscale, a red hue, a mirrored image, all black, or inverted.</p><p>Includes: JavaScript, Node, Mocha, Chai, and Gulp</p><p><a href=\"https://github.com/giodamelio/bitmap_transformer\" target=\"_blank\">Source Code</a></p>",
+    "about": "<p>This project allows users to transform a non-palette bitmap image using simple command line arguments. Transformations include grayscale, a red hue, a mirrored image, all black, or inverted colors. This is an NPM installable package.</p><p>Includes: JavaScript, Node, Mocha, Chai, and Gulp</p><p><a href=\"https://github.com/giodamelio/bitmap_transformer\" target=\"_blank\">Source Code</a></p>",
     "infoUrl": "https://www.npmjs.com/package/bitmap_transformer"
   },
   {
@@ -16,7 +16,7 @@
     "numericalDate": "2016-05-06",
     "writtenDate": "May 3rd, 2016",
     "imgUrl": "/img/projectInoculation.png",
-    "about": "<p>As the final project for the 301 level software developement course at Code Fellows, I worked with a team to create the \"Project  Inoculation\" app. This tool allows users to search for K-12 schools in Washington and discover their vaccine excemption and completion rates.</p><p>Includes: HTML5, CSS3, JavaScript, jQuery, Ajax, Page.js, Chart.js, Heroku, Firebase, MVC structure, mobile-first design</p><p><a href=\"https://github.com/apalm112/team_inoculation\" target=\"_blank\">Source Code</a></p>",
+    "about": "<p>This project allows users to search for K-12 schools in Washington state and discover vaccine exemption and completion rates. Utilizes Google maps and Chart.js to visualize data.</p><p>Includes: HTML5, CSS3, JavaScript, jQuery, Ajax, Page.js, Chart.js, Heroku, Firebase, MVC structure, mobile-first design</p><p><a href=\"https://github.com/apalm112/team_inoculation\" target=\"_blank\">Source Code</a></p>",
     "infoUrl": "https://project-inoculation.herokuapp.com/"
   },
   {
@@ -26,7 +26,7 @@
     "numericalDate": "2016-04-08",
     "writtenDate": "April 8th, 2016",
     "imgUrl": "/img/welcomeToSeattle.png",
-    "about": "<p>As the final project for the 201 level web developement course at Code Fellows, I worked with a team to create the \"Welcome to Seattle\" website. This tool is designed to help Seattle newcomers find the best neighborhood to meet thier needs.</p><p>Includes: HTML5, CSS3, JavaScript, and Local Storage</p><p><a href=\"https://github.com/PeterBreen/welcome-to-seattle\" target=\"_blank\">Source Code</a></p>",
+    "about": "<p>This project provides users with a questionnaire to calculate the best Seattle neighborhood for their needs. Results include more detailed neighborhood information, Google maps, and an option to take notes.</p><p>Includes: HTML5, CSS3, JavaScript, and Local Storage</p><p><a href=\"https://github.com/PeterBreen/welcome-to-seattle\" target=\"_blank\">Source Code</a></p>",
     "infoUrl": "http://peterbreen.github.io/welcome-to-seattle/"
   },
   {
@@ -36,7 +36,7 @@
     "numericalDate": "2015-11-07",
     "writtenDate": "November 7th, 2015",
     "imgUrl": "/img/appathon.png",
-    "about": "<p>As a founding Google Code Corps member, I helped pilot <a href=\"http://cs-first.com\" target=\"_blank\">Google CS First</a> at Boys & Girls Clubs in Portland, OR. I also planned and implemented a free hackathon for 45 club youth from across the metro area.</p><p>I recruited and trained 14 skilled volunteers who led small teams through the process of brainstorming, wire framing, and programming an Android app. We served two hearty meals, held a project fair, and provided our youth with certificates and resources on continuing with computer science. </p>",
+    "about": "<p>Planned and implemented a free hackathon for 45 Boys & Girls Club youth from the Portland metropolitan area.</p><p>Recruited and trained 14 skilled volunteers who led small teams through the process of brainstorming, wireframing, and programming an Android app. Served two meals, held a project fair, and provided participants with certificates and resources on continuing with computer science. </p>",
     "infoUrl": "https://www.flickr.com/photos/131466850@N04/sets/72157661000662512"
   }
 ]
