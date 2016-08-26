@@ -5,7 +5,7 @@
     $('#home').css('display', 'none');
     $('#about').css('display', 'none');
     $('#contact').css('display', 'none');
-    $('#projects').css('display', '');
+    $('#projects').css('display', 'block');
     Project.fetchAllProjects(projectView.initializeProjects);
   };
 

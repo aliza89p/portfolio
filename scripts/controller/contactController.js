@@ -5,7 +5,7 @@
     $('#home').css('display', 'none');
     $('#projects').css('display', 'none');
     $('#about').css('display', 'none');
-    $('#contact').css('display', '');
+    $('#contact').css('display', 'block');
   };
   module.contactController = contactController;
 })(window);

@@ -31,10 +31,6 @@
   padding-bottom: 10px;
 }
 
-.page-content {
-  display: none;
-}
-
 .aliza-photo{
   position: relative;
   text-align: center;
@@ -46,7 +42,7 @@
 }
 
 .page-content{
-  display: block;
+  display: none;
   width: 90%;
   margin: 0 auto;
   margin-bottom: 30px;
