@@ -25,6 +25,7 @@
 
 .header-inner ul {
   padding-top: 20px;
+  height: 140px;
 }
 
 .header-inner ul li {
@@ -95,6 +96,10 @@
 
   .aliza-title{
     z-index: 0;
+  }
+
+  .header-inner ul {
+    height: 0;
   }
 
   .skills-container {
