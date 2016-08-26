@@ -1,12 +1,22 @@
 [
   {
+    "title": "Rx SMS",
+    "category": "Code Fellows Projects",
+    "id": "rx-sms",
+    "numericalDate": "2016-08-12",
+    "writtenDate": "August 12th, 2016",
+    "imgUrl": "/img/rx-sms.png",
+    "about":  "<p>Back-end medication interaction app for text messaging. Users sign-up with their phone number and any medications they take. Once registered, text a drug name to see if it interacts with their saved medications.</p><p>Includes: Node, MongoDB, Express, external API's, Mocha, Chai, and Gulp.</p><p><a href=\"https://github.com/aliza89p/RX_SMS\" target=\"_blank\">Source Code</a></p>",
+    "infoUrl": "http://rx-sms.herokuapp.com/"
+  },
+  {
     "title": "Bitmap Transformer",
     "category": "Code Fellows Projects",
     "id": "bitmap-transformer",
     "numericalDate": "2016-07-18",
     "writtenDate": "July 18th, 2016",
     "imgUrl": "/img/bitmapTransformer.png",
-    "about": "<p>This project allows users to transform a non-palette bitmap image using simple command line arguments. Transformations include grayscale, a red hue, a mirrored image, all black, or inverted colors. This is an NPM installable package.</p><p>Includes: JavaScript, Node, Mocha, Chai, and Gulp</p><p><a href=\"https://github.com/giodamelio/bitmap_transformer\" target=\"_blank\">Source Code</a></p>",
+    "about": "<p>Non-palette bitmap image transformer using simple command line arguments. Transformations include grayscale, a red hue, a mirrored image, all black, or inverted colors. This is an NPM installable package.</p><p>Includes: Node, Mocha, Chai, and Gulp</p><p><a href=\"https://github.com/giodamelio/bitmap_transformer\" target=\"_blank\">Source Code</a></p>",
     "infoUrl": "https://www.npmjs.com/package/bitmap_transformer"
   },
   {
@@ -16,7 +26,7 @@
     "numericalDate": "2016-05-06",
     "writtenDate": "May 3rd, 2016",
     "imgUrl": "/img/projectInoculation.png",
-    "about": "<p>This project allows users to search for K-12 schools in Washington state and discover vaccine exemption and completion rates. Utilizes Google maps and Chart.js to visualize data.</p><p>Includes: HTML5, CSS3, JavaScript, jQuery, Ajax, Page.js, Chart.js, Heroku, Firebase, MVC structure, mobile-first design</p><p><a href=\"https://github.com/apalm112/team_inoculation\" target=\"_blank\">Source Code</a></p>",
+    "about": "<p>Web application allows users to search for K-12 schools in Washington state and discover vaccine exemption and completion rates. Utilizes Google maps and Chart.js to visualize data.</p><p>Includes: HTML5, CSS3, JavaScript, jQuery, Ajax, Page.js, Chart.js, Heroku, Firebase, MVC structure, mobile-first design</p><p><a href=\"https://github.com/apalm112/team_inoculation\" target=\"_blank\">Source Code</a></p>",
     "infoUrl": "https://project-inoculation.herokuapp.com/"
   },
   {
@@ -28,15 +38,5 @@
     "imgUrl": "/img/welcomeToSeattle.png",
     "about": "<p>This project provides users with a questionnaire to calculate the best Seattle neighborhood for their needs. Results include more detailed neighborhood information, Google maps, and an option to take notes.</p><p>Includes: HTML5, CSS3, JavaScript, and Local Storage</p><p><a href=\"https://github.com/PeterBreen/welcome-to-seattle\" target=\"_blank\">Source Code</a></p>",
     "infoUrl": "http://peterbreen.github.io/welcome-to-seattle/"
-  },
-  {
-    "title": "App-a-thon",
-    "category": "Hackathons",
-    "id": "app-a-thon",
-    "numericalDate": "2015-11-07",
-    "writtenDate": "November 7th, 2015",
-    "imgUrl": "/img/appathon.png",
-    "about": "<p>Planned and implemented a free hackathon for 45 Boys & Girls Club youth from the Portland metropolitan area.</p><p>Recruited and trained 14 skilled volunteers who led small teams through the process of brainstorming, wireframing, and programming an Android app. Served two meals, held a project fair, and provided participants with certificates and resources on continuing with computer science. </p>",
-    "infoUrl": "https://www.flickr.com/photos/131466850@N04/sets/72157661000662512"
   }
 ]
