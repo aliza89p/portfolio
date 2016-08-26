@@ -27,6 +27,10 @@
   padding-top: 20px;
 }
 
+.header-inner ul li {
+  padding-bottom: 10px;
+}
+
 .aliza-photo{
   position: relative;
   text-align: center;

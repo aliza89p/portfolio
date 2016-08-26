@@ -2,10 +2,10 @@
   var projectController = {};
 
   projectController.index = function(ctx, next) {
-    $('#home').hide();
-    $('#about').hide();
-    $('#contact').hide();
-    $('#projects').show();
+    $('#home').css('display', 'none');
+    $('#about').css('display', 'none');
+    $('#contact').css('display', 'none');
+    $('#projects').css('display', '');
     Project.fetchAllProjects(projectView.initializeProjects);
   };
 

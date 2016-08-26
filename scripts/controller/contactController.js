@@ -2,10 +2,10 @@
   var contactController = {};
 
   contactController.index = function() {
-    $('#home').hide();
-    $('#projects').hide();
-    $('#about').hide();
-    $('#contact').show();
+    $('#home').css('display', 'none');
+    $('#projects').css('display', 'none');
+    $('#about').css('display', 'none');
+    $('#contact').css('display', '');
   };
   module.contactController = contactController;
 })(window);
