@@ -19,7 +19,7 @@ li{
 
 body {
   background-color: rgba(110,80,110,.8);
-  font-family: 'Nixie One', cursive;
+  font-family: "Nixie One", cursive;
   font-size: 1.2rem;
   color: white;
 }
@@ -34,17 +34,7 @@ main h2 {
 }
 
 .welcome-header{
-  font-size: 3rem;
-}
-
-.aliza-title h2{
-  font-size: 1rem;
-  font-family: "Cutive", cursive;
-}
-
-.aliza-title p{
-  font-size: .8rem;
-  font-family: "Cutive", cursive;
+  font-size: 2.75rem;
 }
 
 .icon-menu {
@@ -55,6 +45,7 @@ main h2 {
 .header-inner{
   background: white;
   color: rgb(110,80,110);
+  font-family: "Cutive", cursive;
 }
 
 .header-inner ul{
@@ -64,7 +55,6 @@ main h2 {
 .header-inner ul a{
   color: rgb(110,80,110);
   font-size: 1.3rem;
-  font-family: "Cutive", cursive;
   text-shadow: none;
 }
 
@@ -103,14 +93,10 @@ footer a{
   font-size: 1.5625rem;
 }
 
-.logo {
-  font-family: courier;
-}
-
 @media (min-width: 670px){
 
   .welcome-header{
-    font-size: 6.5rem;
+    font-size: 6rem;
   }
 
 }
