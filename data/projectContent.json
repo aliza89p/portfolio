@@ -6,7 +6,7 @@
     "numericalDate": "2016-08-12",
     "writtenDate": "August 12th, 2016",
     "imgUrl": "/img/rx-sms.png",
-    "about":  "<p>Back-end medication interaction app for text messaging. Users sign-up with their phone number and any medications they take. Once registered, text a drug name to see if it interacts with their saved medications.</p><p>Includes: Node, MongoDB, Express, external API's, Mocha, Chai, and Gulp.</p><p><a href=\"https://github.com/aliza89p/RX_SMS\" target=\"_blank\">Source Code</a></p>",
+    "about":  "<p>Back-end medication interaction app for text messaging. Users sign-up with their phone number and any medications they take. Once registered, they text a drug name to see if it interacts with their saved medications.</p><p>Includes: Node, MongoDB, Express, external API's, Mocha, Chai, and Gulp.</p><p><a href=\"https://github.com/aliza89p/RX_SMS\" target=\"_blank\">Source Code</a></p>",
     "infoUrl": "http://rx-sms.herokuapp.com/"
   },
   {
