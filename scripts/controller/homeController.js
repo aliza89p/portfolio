@@ -2,10 +2,10 @@
   var homeController = {};
 
   homeController.index = function() {
-    $('#projects').hide();
-    $('#about').hide();
-    $('#contact').hide();
-    $('#home').show();
+    $('#projects').css('display', 'none');
+    $('#about').css('display', 'none');
+    $('#contact').css('display', 'none');
+    $('#home').css('display', '');
   };
   module.homeController = homeController;
 })(window);
