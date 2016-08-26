@@ -14,40 +14,17 @@
 
 .header-inner h1 {
   position: absolute;
-  width: 120px;
   text-align: center;
   display:inline-block;
-  right: 10px;
+  right: 15px;
   padding: 0;
   margin: 0;
-  margin-top: 15px;
+  margin-top: 5px;
+  font-size: 3rem;
 }
 
 .header-inner ul {
   padding-top: 20px;
-}
-
-.aliza-title{
-  position: absolute;
-  display:inline-block;
-  right: 140px;
-  margin-top: 8px;
-  width: 140px;
-}
-
-.aliza-title h2{
-  margin-top: 10px;
-  text-align: right;
-  padding: 0;
-}
-
-.aliza-title p{
-  margin-top: -20px;
-  text-align: right;
-}
-
-.logo {
-  padding: 2px;
 }
 
 .aliza-photo{
