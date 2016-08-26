@@ -7,7 +7,6 @@
 .header-inner ul a{
   width: 100%;
   z-index: 1;
-  margin-right
 }
 
 .icon-menu {
@@ -23,6 +22,7 @@
 @media (min-width: 850px){
 
   .header-inner ul{
+    height: 0;
     padding: 10px;
     padding-top: 30px;
     margin-top: 0;

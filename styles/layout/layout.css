@@ -98,10 +98,6 @@
     z-index: 0;
   }
 
-  .header-inner ul {
-    height: 0;
-  }
-
   .skills-container {
     display: flex;
     align-items: flex-start;
