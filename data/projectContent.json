@@ -1,11 +1,21 @@
 [
   {
+    "title": "Eventure",
+    "category": "Code Fellows Projects",
+    "id": "eventure",
+    "numericalDate": "2016-09-16",
+    "writtenDate": "September 16th, 2016",
+    "imgUrl": "/img/eventure.jpg",
+    "about":  "<p>Full-stack web application designed to help users find nearby events. They can create their own events and follow their friends events. The map view allows for easy navigation to find events happening close to a user's location.</p><p>Includes: AngularJS, Node, MongoDB, Express, SASS, and Bootstrap.</p><p><a href=\"https://github.com/eventure-events\" target=\"_blank\">Source Code</a></p>",
+    "infoUrl": "http://eventure.site"
+  },
+  {
     "title": "Rx SMS",
     "category": "Code Fellows Projects",
     "id": "rx-sms",
     "numericalDate": "2016-08-12",
     "writtenDate": "August 12th, 2016",
-    "imgUrl": "/img/rx-sms.png",
+    "imgUrl": "/img/rx-sms.jpg",
     "about":  "<p>Back-end medication interaction app for text messaging. Users sign-up with their phone number and any medications they take. Once registered, they text a drug name to see if it interacts with their saved medications.</p><p>Includes: Node, MongoDB, Express, external API's, Mocha, Chai, and Gulp.</p><p><a href=\"https://github.com/aliza89p/RX_SMS\" target=\"_blank\">Source Code</a></p>",
     "infoUrl": "http://rx-sms.herokuapp.com/"
   },
@@ -15,7 +25,7 @@
     "id": "bitmap-transformer",
     "numericalDate": "2016-07-18",
     "writtenDate": "July 18th, 2016",
-    "imgUrl": "/img/bitmapTransformer.png",
+    "imgUrl": "/img/bitmapTransformer.jpg",
     "about": "<p>Non-palette bitmap image transformer using simple command line arguments. Transformations include grayscale, a red hue, a mirrored image, all black, or inverted colors. This is an NPM installable package.</p><p>Includes: Node, Mocha, Chai, and Gulp</p><p><a href=\"https://github.com/giodamelio/bitmap_transformer\" target=\"_blank\">Source Code</a></p>",
     "infoUrl": "https://www.npmjs.com/package/bitmap_transformer"
   },
@@ -25,7 +35,7 @@
     "id": "project-inoculation",
     "numericalDate": "2016-05-06",
     "writtenDate": "May 3rd, 2016",
-    "imgUrl": "/img/projectInoculation.png",
+    "imgUrl": "/img/projectInoculation.jpg",
     "about": "<p>Web application allows users to search for K-12 schools in Washington state and discover vaccine exemption and completion rates. Utilizes Google maps and Chart.js to visualize data.</p><p>Includes: HTML5, CSS3, JavaScript, jQuery, Ajax, Page.js, Chart.js, Heroku, Firebase, MVC structure, mobile-first design</p><p><a href=\"https://github.com/apalm112/team_inoculation\" target=\"_blank\">Source Code</a></p>",
     "infoUrl": "https://project-inoculation.herokuapp.com/"
   },
@@ -35,7 +45,7 @@
     "id": "welcome-to-seattle",
     "numericalDate": "2016-04-08",
     "writtenDate": "April 8th, 2016",
-    "imgUrl": "/img/welcomeToSeattle.png",
+    "imgUrl": "/img/welcomeToSeattle.jpg",
     "about": "<p>This project provides users with a questionnaire to calculate the best Seattle neighborhood for their needs. Results include more detailed neighborhood information, Google maps, and an option to take notes.</p><p>Includes: HTML5, CSS3, JavaScript, and Local Storage</p><p><a href=\"https://github.com/PeterBreen/welcome-to-seattle\" target=\"_blank\">Source Code</a></p>",
     "infoUrl": "http://peterbreen.github.io/welcome-to-seattle/"
   }
